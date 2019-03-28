@@ -4,19 +4,19 @@
 
     <div class="row">
 
-      <!-- Top 5 Contestent -->
+      <!-- Top 5 Contestant -->
 
       <div class="col-sm-6">
         <mat-card class="example-card margin50px">
           <mat-card-header>
             <mat-card-title>Top 5</mat-card-title>
-            <mat-card-subtitle>Contestent</mat-card-subtitle>
+            <mat-card-subtitle>Contestant</mat-card-subtitle>
           </mat-card-header>
           <mat-card-content>
             <mat-form-field>
               <input matInput (keyup)="applyFilterTopFive($event.target.value)" placeholder="Filter">
             </mat-form-field>
-            <table mat-table [dataSource]="top_5_contestent_dataSource" class="mat-elevation-z8">
+            <table mat-table [dataSource]="top_5_contestant_dataSource" class="mat-elevation-z8">
               <!-- Name Column -->
               <ng-container matColumnDef="name">
                 <th mat-header-cell *matHeaderCellDef> Name </th>
@@ -34,19 +34,19 @@
         </mat-card>
       </div>
 
-      <!-- Bottom 5 Contestent -->
+      <!-- Bottom 5 Contestant -->
 
       <div class="col-sm-6">
         <mat-card class="example-card margin50px">
           <mat-card-header>
             <mat-card-title>Bottom 5</mat-card-title>
-            <mat-card-subtitle>Contestent</mat-card-subtitle>
+            <mat-card-subtitle>Contestant</mat-card-subtitle>
           </mat-card-header>
           <mat-card-content>
             <mat-form-field>
               <input matInput (keyup)="applyFilterBottomFive($event.target.value)" placeholder="Filter">
             </mat-form-field>
-            <table mat-table [dataSource]="bottom_5_contestent_dataSorce" class="mat-elevation-z8">
+            <table mat-table [dataSource]="bottom_5_contestant_dataSorce" class="mat-elevation-z8">
               <!-- Name Column -->
               <ng-container matColumnDef="name">
                 <th mat-header-cell *matHeaderCellDef> Name </th>
@@ -67,27 +67,27 @@
 
   </mat-tab>
 
-  <!-- Contestent Here -->
+  <!-- Contestant Here -->
 
-  <mat-tab label="Contestent">
+  <mat-tab label="Contestant">
     <div class="row marginBottom100px">
-      <div class="col-sm-3" *ngFor="let contestent of contestents">
+      <div class="col-sm-3" *ngFor="let contestant of contestants">
         <mat-card class="margin15px">
           <mat-card-header>
             <mat-card-title>
-              {{contestent.name.firstName}}
+              {{contestant.name.firstName}}
             </mat-card-title>
             <mat-card-subtitle>
-              {{contestent.role}}
+              {{contestant.role}}
             </mat-card-subtitle>
           </mat-card-header>
           <mat-card-content>
             <div style="text-align:center;">
-              <img class="contestentDP" src="../../assets/{{contestent.name.firstName}}.jpg" alt="Contestent">
+              <img class="contestantDP" src="../../assets/{{contestant.name.firstName}}.jpg" alt="Contestant">
               <br><br>
               <mat-divider></mat-divider>
               <br>
-              <p><strong> {{contestent.currentHoldingLabel}}&nbsp;&nbsp;<span style="font-size: larger; color: crimson;">{{contestent.currentHoldingValue}}</span></strong></p>
+              <p><strong> {{contestant.currentHoldingLabel}}&nbsp;&nbsp;<span style="font-size: larger; color: crimson;">{{contestant.currentHoldingValue}}</span></strong></p>
             </div>
           </mat-card-content>
         </mat-card>

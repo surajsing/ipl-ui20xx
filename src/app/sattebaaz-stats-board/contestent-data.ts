@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 
-export interface Contestent {
+export interface Contestant {
     sequence : number,
     name : {
         firstName : string,
@@ -14,11 +14,11 @@ export interface Contestent {
 @Injectable({
     providedIn : 'root'
 })
-export class ContestentData {
+export class ContestantData {
     constructor(){
 
     }
-    public contestents : Contestent [] = [
+    public contestants : Contestant [] = [
         {
             sequence : 1,
             name: {
@@ -171,8 +171,8 @@ export class ContestentData {
         }
     ]
 
-    getContestentData () {
-        return this.contestents;
+    getContestantData () {
+        return this.contestants;
     }
 
 }

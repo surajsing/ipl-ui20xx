@@ -1,5 +1,5 @@
 import { DashboardData } from './sattebaaz-stats-board/dashboard-data';
-import { ContestentData } from './sattebaaz-stats-board/contestent-data';
+import { ContestantData } from './sattebaaz-stats-board/contestent-data';
 import { MatchFixturesData } from './sattebaaz-stats-board/match-fixtures-data';
 import { BrowserModule } from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -47,7 +47,7 @@ import { PredictionRuleBookData } from './sattebaaz-stats-board/prediction-rule-
   ],
   providers: [
     MatchFixturesData,
-    ContestentData,
+    ContestantData,
     DashboardData,
     PredictionRuleBookData
   ],

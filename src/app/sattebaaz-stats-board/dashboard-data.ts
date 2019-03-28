@@ -9,7 +9,7 @@ export interface PeriodicElements{
 })
 export class DashboardData{
 
-    public topFiveContestent : PeriodicElements[] = [
+    public topFiveContestant : PeriodicElements[] = [
         {
             name : 'Kalpesh',
             weight: '66.67 INR'
@@ -32,7 +32,7 @@ export class DashboardData{
         }
     ]
 
-    public bottomFiveContestent : PeriodicElements[] = [
+    public bottomFiveContestant : PeriodicElements[] = [
         {
             name : 'Siddhhu',
             weight : '-50.00 INR'
@@ -55,12 +55,12 @@ export class DashboardData{
         }
     ]
 
-    getTopFiveContestent(){
-        return this.topFiveContestent;
+    getTopFiveContestant(){
+        return this.topFiveContestant;
     }
 
-    getBottomFiveContestent(){
-        return this.bottomFiveContestent;
+    getBottomFiveContestant(){
+        return this.bottomFiveContestant;
     }
 
 }
