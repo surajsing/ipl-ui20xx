@@ -15,12 +15,13 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
 import {MatTableModule} from '@angular/material/table';
-import {MatFormFieldModule, MatIconModule} from '@angular/material';
+import {MatFormFieldModule, MatIconModule, MatDatepickerModule, MatNativeDateModule} from '@angular/material';
 import {MatInputModule } from '@angular/material';
 import { SattebaazStatsBoardComponent } from './sattebaaz-stats-board/sattebaaz-stats-board.component';
 import { SattebaazHomeComponent } from './sattebaaz-home/sattebaaz-home.component';
 import { SattebaazOverallStatsComponent } from './sattebaaz-overall-stats/sattebaaz-overall-stats.component';
 import { PredictionRuleBookData } from './sattebaaz-stats-board/prediction-rule-book-data';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,10 @@ import { PredictionRuleBookData } from './sattebaaz-stats-board/prediction-rule-
     MatFormFieldModule,
     MatInputModule,
     MatIconModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    FormsModule,
+    ReactiveFormsModule,
     AppRoutingModule
   ],
   providers: [

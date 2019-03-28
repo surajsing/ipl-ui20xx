@@ -87,7 +87,8 @@
               <br><br>
               <mat-divider></mat-divider>
               <br>
-              <p><strong> {{contestant.currentHoldingLabel}}&nbsp;&nbsp;<span style="font-size: larger; color: crimson;">{{contestant.currentHoldingValue}}</span></strong></p>
+              <p><strong> {{contestant.currentHoldingLabel}}&nbsp;&nbsp;<span
+                    style="font-size: larger; color: crimson;">{{contestant.currentHoldingValue}}</span></strong></p>
             </div>
           </mat-card-content>
         </mat-card>
@@ -100,38 +101,56 @@
   <mat-tab label="Match Fixtures">
 
     <div class="marginBottom100px">
-      <div class="margin25px" *ngFor="let match of matches">
+      <div class="margin25px">
         <mat-card>
-          {{match.sequence}}
-          <mat-card-header>
-            <mat-card-subtitle>
-              {{match.fixtures}} &nbsp;&nbsp;&nbsp;
-              {{match.date.toDateString()}} &nbsp;&nbsp;&nbsp;
-              {{match.location}}
-            </mat-card-subtitle>
-          </mat-card-header>
-          <mat-card-content>
-            <div class="row">
-              <div class="col-sm-4" style="text-align:center;">
-                <mat-card class="logoStyle">
-                  <img src="../../assets/{{match.teamOne}}.jpg" alt="{{match.teamOne}} LOGO" class="logoRadius">
-                </mat-card>
-              </div>
-              <div class="col-sm-4 vs" style="text-align:center;">
-                <span class="versus"><strong>vs</strong></span>
-              </div>
-              <div class="col-sm-4" style="text-align:center;">
-                <mat-card class="logoStyle ">
-                  <img src="../../assets/{{match.teamTwo}}.jpg" alt="{{match.teamTwo}} LOGO" class="logoRadius">
-                </mat-card>
-              </div>
-            </div>
-            <br>
-            <p class="winnerStyle"><span><strong>Winner</strong></span> &nbsp;&nbsp;&nbsp;{{match.winner}}</p>
-          </mat-card-content>
+          <mat-form-field>
+            <mat-label>Apply Date Filter</mat-label>
+            <input matInput [matDatepicker]="picker" 
+            #chosenDate="ngModel" ngModel name="chosenDate"
+            placeholder="Choose Date" 
+            (dateInput)="addEvent('input', $event)"
+            [min]="minDate" [max]="maxDate">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker touchUi #picker></mat-datepicker>
+          </mat-form-field>
+          <mat-error *ngIf="chosenDate.hasError('matDatepickerMin')">Hey!! IPL 2019 started on 23-MAR-2019</mat-error>
+          <mat-error *ngIf="chosenDate.hasError('matDatepickerMax')">Future date's are not yet decided</mat-error>
         </mat-card>
-        <br>
-        <mat-divider></mat-divider>
+      </div>
+      <div class="margin25px" *ngFor="let match of matches">
+        <div *ngIf="(appliedDate == undefined)||(appliedDate === match.date.toDateString())">
+          <mat-card>
+            {{match.sequence}}
+            <mat-card-header>
+              <mat-card-subtitle>
+                {{match.fixtures}} &nbsp;&nbsp;&nbsp;
+                {{match.date.toDateString()}} &nbsp;&nbsp;&nbsp;
+                {{match.location}}
+              </mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <div class="row">
+                <div class="col-sm-4" style="text-align:center;">
+                  <mat-card class="logoStyle">
+                    <img src="../../assets/{{match.teamOne}}.jpg" alt="{{match.teamOne}} LOGO" class="logoRadius">
+                  </mat-card>
+                </div>
+                <div class="col-sm-4 vs" style="text-align:center;">
+                  <span class="versus"><strong>vs</strong></span>
+                </div>
+                <div class="col-sm-4" style="text-align:center;">
+                  <mat-card class="logoStyle ">
+                    <img src="../../assets/{{match.teamTwo}}.jpg" alt="{{match.teamTwo}} LOGO" class="logoRadius">
+                  </mat-card>
+                </div>
+              </div>
+              <br>
+              <p class="winnerStyle"><span><strong>Winner</strong></span> &nbsp;&nbsp;&nbsp;{{match.winner}}</p>
+            </mat-card-content>
+          </mat-card>
+          <br>
+          <mat-divider></mat-divider>
+        </div>
       </div>
     </div>
   </mat-tab>
