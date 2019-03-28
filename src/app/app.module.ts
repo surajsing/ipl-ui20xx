@@ -1,0 +1,56 @@
+import { DashboardData } from './sattebaaz-stats-board/dashboard-data';
+import { ContestentData } from './sattebaaz-stats-board/contestent-data';
+import { MatchFixturesData } from './sattebaaz-stats-board/match-fixtures-data';
+import { BrowserModule } from '@angular/platform-browser';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { NgModule } from '@angular/core';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { SattebaazHeaderComponent } from './sattebaaz-header/sattebaaz-header.component';
+import { SattebaazFooterComponent } from './sattebaaz-footer/sattebaaz-footer.component';
+import { SattebaazIplComponent } from './sattebaaz-ipl/sattebaaz-ipl.component';
+import {MatButtonModule} from '@angular/material/button';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatCardModule} from '@angular/material/card';
+import {MatListModule} from '@angular/material/list';
+import {MatTableModule} from '@angular/material/table';
+import {MatFormFieldModule, MatIconModule} from '@angular/material';
+import {MatInputModule } from '@angular/material';
+import { SattebaazStatsBoardComponent } from './sattebaaz-stats-board/sattebaaz-stats-board.component';
+import { SattebaazHomeComponent } from './sattebaaz-home/sattebaaz-home.component';
+import { SattebaazOverallStatsComponent } from './sattebaaz-overall-stats/sattebaaz-overall-stats.component';
+import { PredictionRuleBookData } from './sattebaaz-stats-board/prediction-rule-book-data';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    SattebaazHeaderComponent,
+    SattebaazFooterComponent,
+    SattebaazIplComponent,
+    SattebaazStatsBoardComponent,
+    SattebaazHomeComponent,
+    SattebaazOverallStatsComponent,
+  ],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatTabsModule,
+    MatCardModule,
+    MatListModule,
+    MatTableModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatIconModule,
+    AppRoutingModule
+  ],
+  providers: [
+    MatchFixturesData,
+    ContestentData,
+    DashboardData,
+    PredictionRuleBookData
+  ],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
