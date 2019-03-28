@@ -4,6 +4,7 @@ import { ContestantData } from './contestent-data';
 import { MatchFixturesData } from './match-fixtures-data';
 import { Component, OnInit } from '@angular/core';
 import {MatTableDataSource} from '@angular/material';
+import {MatDatepickerInputEvent} from '@angular/material/datepicker';
 
 @Component({
   selector: 'app-sattebaaz-stats-board',
@@ -20,6 +21,9 @@ export class SattebaazStatsBoardComponent implements OnInit {
   bottom_5_contestant_dataSorce : MatTableDataSource<PeriodicElements>;
   publishRules : any;
   predictionRules : any;
+  appliedDate : string;
+  minDate = new Date(2019, 2, 23);
+  maxDate = new Date(2019, 4, 5);
 
   constructor(match : MatchFixturesData,
      contestant : ContestantData,
@@ -39,6 +43,18 @@ export class SattebaazStatsBoardComponent implements OnInit {
 
   applyFilterBottomFive(filterValue: string) {
     this.bottom_5_contestant_dataSorce.filter = filterValue.trim().toLowerCase();
+  }
+
+  events: string[] = [];
+
+  addEvent(type: string, event: MatDatepickerInputEvent<Date>) {
+    this.events.push(`${type}: ${event.value}`);
+    console.log(this.appliedDate);
+    if(event.value){
+      this.appliedDate = (event.value).toDateString();
+    } else {
+      this.appliedDate = undefined;
+    }
   }
 
   ngOnInit() {
