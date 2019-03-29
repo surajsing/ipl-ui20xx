@@ -49,7 +49,6 @@ export class SattebaazStatsBoardComponent implements OnInit {
 
   addEvent(type: string, event: MatDatepickerInputEvent<Date>) {
     this.events.push(`${type}: ${event.value}`);
-    console.log(this.appliedDate);
     if(event.value){
       this.appliedDate = (event.value).toDateString();
     } else {

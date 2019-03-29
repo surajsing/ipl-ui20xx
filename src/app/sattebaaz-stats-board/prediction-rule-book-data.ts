@@ -63,7 +63,7 @@ export class PredictionRuleBookData {
         },
         {
             id : 8,
-            rule : 'Can choose two ballers of each teams for maximum wickets (addition of both ballers wicket).'
+            rule : 'Can choose two bowlers of each teams for maximum wickets (addition of both bowlers wicket).'
         }
     ]
 
