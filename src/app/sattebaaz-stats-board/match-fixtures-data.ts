@@ -87,7 +87,7 @@ export class MatchFixturesData {
             teamOne: 'SRH',
             teamTwo: 'RR',
             date: new Date(2019, 2, 29),
-            winner: 'NYD'
+            winner: 'SRH'
         },
         {
             sequence: 'Match 9',
@@ -96,7 +96,7 @@ export class MatchFixturesData {
             teamOne: 'KXIP',
             teamTwo: 'MI',
             date: new Date(2019, 2, 30),
-            winner: 'NYD'
+            winner: 'KXIP'
         },
         {
             sequence: 'Match 10',
@@ -105,7 +105,7 @@ export class MatchFixturesData {
             teamOne: 'DC',
             teamTwo: 'KKR',
             date: new Date(2019, 2, 30),
-            winner: 'NYD'
+            winner: 'Tied (DC won Super Over)'
         },
         {
             sequence: 'Match 11',
@@ -114,7 +114,7 @@ export class MatchFixturesData {
             teamOne: 'SRH',
             teamTwo: 'RCB',
             date: new Date(2019, 2, 31),
-            winner: 'NYD'
+            winner: 'SRH'
         },
         {
             sequence: 'Match 12',
@@ -123,7 +123,7 @@ export class MatchFixturesData {
             teamOne: 'CSK',
             teamTwo: 'RR',
             date: new Date(2019, 2, 31),
-            winner: 'NYD'
+            winner: 'CSK'
         },
         {
             sequence: 'Match 13',
@@ -132,7 +132,7 @@ export class MatchFixturesData {
             teamOne: 'KXIP',
             teamTwo: 'DC',
             date: new Date(2019, 3, 1),
-            winner: 'NYD'
+            winner: 'KXIP'
         },
         {
             sequence: 'Match 14',
@@ -141,7 +141,7 @@ export class MatchFixturesData {
             teamOne: 'RR',
             teamTwo: 'RCB',
             date: new Date(2019, 3, 2),
-            winner: 'NYD'
+            winner: 'RR'
         },
         {
             sequence: 'Match 15',
@@ -150,7 +150,7 @@ export class MatchFixturesData {
             teamOne: 'MI',
             teamTwo: 'CSK',
             date: new Date(2019, 3, 3),
-            winner: 'NYD'
+            winner: 'MI'
         },
         {
             sequence: 'Match 16',
@@ -159,7 +159,7 @@ export class MatchFixturesData {
             teamOne: 'DC',
             teamTwo: 'SRH',
             date: new Date(2019, 3, 4),
-            winner: 'NYD'
+            winner: 'SRH'
         },
         {
             sequence: 'Match 17',
