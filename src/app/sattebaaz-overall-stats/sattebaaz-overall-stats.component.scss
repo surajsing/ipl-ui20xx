@@ -1,9 +1,31 @@
-.bg-custom{
-    background-color: #33b5e5;
-    height: 4rem;
+.bg-custom {
+  background-color: #33b5e5;
+  height: 4rem;
 }
-.start-of-nav-stats{
-    font-size: xx-large;
-    text-align: center;
-    padding-bottom: 10px;
+.start-of-nav-stats {
+  font-size: xx-large;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+th.mat-header-cell,
+td.mat-cell {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 25px !important;
+}
+table{
+    display: inline-block;
+    // overflow: hidden;
+    white-space: nowrap;
+    clear: both;
+}
+.fixedBackgroundColor {
+  left: 0px !important;
+  background-color: powderblue;
+  font-weight: 900;
 }

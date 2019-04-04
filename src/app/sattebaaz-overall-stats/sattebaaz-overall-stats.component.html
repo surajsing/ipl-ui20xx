@@ -9,8 +9,327 @@
     </div>
   </nav>
 </header>
-<div style="text-align: center;font-size: xx-large;padding-top: 20px;top: 50px;position: absolute;width: 100%;">
+<!-- <div style="text-align: center;font-size: xx-large;padding-top: 20px;top: 50px;position: absolute;width: 100%;">
   <span>
     DATA NOT AVAILABLE AS OF NOW
   </span>
+</div> -->
+<div style="top: 50px;position: absolute;width: 100%;">
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+
+    <!-- Fixtures Column -->
+    <ng-container matColumnDef="fixtures" >
+      <th mat-header-cell *matHeaderCellDef style="background-color: powderblue;font-weight: 900;"> Fixtures </th>
+      <td mat-cell *matCellDef="let element" style="background-color: aliceblue;font-weight: 900;"> {{element.matchFixtures.match}} </td>
+    </ng-container>
+
+
+    <!-- Result Column -->
+    <ng-container matColumnDef="results" >
+      <th mat-header-cell *matHeaderCellDef style="background-color: powderblue;font-weight: 900;"> Result </th>
+      <td mat-cell *matCellDef="let element" style="background-color: aliceblue;font-weight: 900;"> {{element.matchFixtures.result}} </td>
+    </ng-container>
+
+    <!-- KalpeshBet Column -->
+    <ng-container matColumnDef="kalpeshBet">
+      <th mat-header-cell *matHeaderCellDef> Bet </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[0].bet}} </td>
+    </ng-container>
+
+    <!-- KalpeshHoldingValue Column -->
+    <ng-container matColumnDef="kalpeshHoldingValue">
+      <th mat-header-cell *matHeaderCellDef> Holding Value </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[0].holdingValue}} </td>
+    </ng-container>
+
+    <!-- KailashBet Column -->
+    <ng-container matColumnDef="kailashBet">
+      <th mat-header-cell *matHeaderCellDef> Bet </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[1].bet}} </td>
+    </ng-container>
+
+    <!-- KailashHoldingValue Column -->
+    <ng-container matColumnDef="kailashHoldingValue">
+      <th mat-header-cell *matHeaderCellDef> Holding Value </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[1].holdingValue}} </td>
+    </ng-container>
+
+    <!-- SurajBet Column -->
+    <ng-container matColumnDef="surajBet">
+      <th mat-header-cell *matHeaderCellDef> Bet </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[2].bet}} </td>
+    </ng-container>
+
+    <!-- SurajHoldingValue Column -->
+    <ng-container matColumnDef="surajHoldingValue">
+      <th mat-header-cell *matHeaderCellDef> Holding Value </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[2].holdingValue}} </td>
+    </ng-container>
+
+    <!-- NeerajBet Column -->
+    <ng-container matColumnDef="neerajBet">
+      <th mat-header-cell *matHeaderCellDef> Bet </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[3].bet}} </td>
+    </ng-container>
+
+    <!-- NeerajHoldingValue Column -->
+    <ng-container matColumnDef="neerajHoldingValue">
+      <th mat-header-cell *matHeaderCellDef> Holding Value </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[3].holdingValue}} </td>
+    </ng-container>
+
+    <!-- PoojaBet Column -->
+    <ng-container matColumnDef="poojaBet">
+      <th mat-header-cell *matHeaderCellDef> Bet </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[4].bet}} </td>
+    </ng-container>
+
+    <!-- PoojaHoldingValue Column -->
+    <ng-container matColumnDef="poojaHoldingValue">
+      <th mat-header-cell *matHeaderCellDef> Holding Value </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[4].holdingValue}} </td>
+    </ng-container>
+
+    <!-- SnehalBet Column -->
+    <ng-container matColumnDef="snehalBet">
+      <th mat-header-cell *matHeaderCellDef> Bet </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[5].bet}} </td>
+    </ng-container>
+
+    <!-- SnehalHoldingValue Column -->
+    <ng-container matColumnDef="snehalHoldingValue">
+      <th mat-header-cell *matHeaderCellDef> Holding Value </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[5].holdingValue}} </td>
+    </ng-container>
+
+    <!-- ManasiBet Column -->
+    <ng-container matColumnDef="manasiBet">
+      <th mat-header-cell *matHeaderCellDef> Bet </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[6].bet}} </td>
+    </ng-container>
+
+    <!-- ManasiHoldingValue Column -->
+    <ng-container matColumnDef="manasiHoldingValue">
+      <th mat-header-cell *matHeaderCellDef> Holding Value </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[6].holdingValue}} </td>
+    </ng-container>
+
+    <!-- RadhikaBet Column -->
+    <ng-container matColumnDef="radhikaBet">
+      <th mat-header-cell *matHeaderCellDef> Bet </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[7].bet}} </td>
+    </ng-container>
+
+    <!-- RadhikaHoldingValue Column -->
+    <ng-container matColumnDef="radhikaHoldingValue">
+      <th mat-header-cell *matHeaderCellDef> Holding Value </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[7].holdingValue}} </td>
+    </ng-container>
+
+    <!-- ShrutiBet Column -->
+    <ng-container matColumnDef="shrutiBet">
+      <th mat-header-cell *matHeaderCellDef> Bet </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[8].bet}} </td>
+    </ng-container>
+
+    <!-- ShrutiHoldingValue Column -->
+    <ng-container matColumnDef="shrutiHoldingValue">
+      <th mat-header-cell *matHeaderCellDef> Holding Value </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[8].holdingValue}} </td>
+    </ng-container>
+
+    <!-- ParamBet Column -->
+    <ng-container matColumnDef="paramBet">
+      <th mat-header-cell *matHeaderCellDef> Bet </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[9].bet}} </td>
+    </ng-container>
+
+    <!-- ParamHoldingValue Column -->
+    <ng-container matColumnDef="paramHoldingValue">
+      <th mat-header-cell *matHeaderCellDef> Holding Value </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[9].holdingValue}} </td>
+    </ng-container>
+
+    <!-- PratikBet Column -->
+    <ng-container matColumnDef="pratikBet">
+      <th mat-header-cell *matHeaderCellDef> Bet </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[10].bet}} </td>
+    </ng-container>
+
+    <!-- PratikHoldingValue Column -->
+    <ng-container matColumnDef="pratikHoldingValue">
+      <th mat-header-cell *matHeaderCellDef> Holding Value </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[10].holdingValue}} </td>
+    </ng-container>
+
+    <!-- TusharBet Column -->
+    <ng-container matColumnDef="tusharBet">
+      <th mat-header-cell *matHeaderCellDef> Bet </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[11].bet}} </td>
+    </ng-container>
+
+    <!-- TusharHoldingValue Column -->
+    <ng-container matColumnDef="tusharHoldingValue">
+      <th mat-header-cell *matHeaderCellDef> Holding Value </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[11].holdingValue}} </td>
+    </ng-container>
+
+    <!-- NehaBet Column -->
+    <ng-container matColumnDef="nehaBet">
+      <th mat-header-cell *matHeaderCellDef> Bet </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[12].bet}} </td>
+    </ng-container>
+
+    <!-- NehaHoldingValue Column -->
+    <ng-container matColumnDef="nehaHoldingValue">
+      <th mat-header-cell *matHeaderCellDef> Holding Value </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[12].holdingValue}} </td>
+    </ng-container>
+
+    <!-- SiddhuBet Column -->
+    <ng-container matColumnDef="siddhuBet">
+      <th mat-header-cell *matHeaderCellDef> Bet </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[13].bet}} </td>
+    </ng-container>
+
+    <!-- SiddhuHoldingValue Column -->
+    <ng-container matColumnDef="siddhuHoldingValue">
+      <th mat-header-cell *matHeaderCellDef> Holding Value </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[13].holdingValue}} </td>
+    </ng-container>
+
+    <!-- PoonamBet Column -->
+    <ng-container matColumnDef="poonamBet">
+      <th mat-header-cell *matHeaderCellDef> Bet </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[14].bet}} </td>
+    </ng-container>
+
+    <!-- PoonamHoldingValue Column -->
+    <ng-container matColumnDef="poonamHoldingValue">
+      <th mat-header-cell *matHeaderCellDef> Holding Value </th>
+      <td mat-cell *matCellDef="let element"> {{element.contestantStats[14].holdingValue}} </td>
+    </ng-container>
+
+    <!-- MatchParentGroup - Header row-->
+    <ng-container matColumnDef="match-parent-group" >
+      <th mat-header-cell *matHeaderCellDef style="background-color: skyblue;font-weight: 900;" [attr.colspan]="2">
+        Matches
+      </th>
+    </ng-container>
+
+    <!-- KalpeshParentGroup - Header row -->
+    <ng-container matColumnDef="kalpesh-parent-group">
+      <th mat-header-cell *matHeaderCellDef [style.text-align]="center" [attr.colspan]="2">
+        Kalpesh
+      </th>
+    </ng-container>
+
+    <!-- KailashParentGroup - Header row -->
+    <ng-container matColumnDef="kailash-parent-group">
+      <th mat-header-cell *matHeaderCellDef [style.text-align]="center" [attr.colspan]="2">
+        Kailash
+      </th>
+    </ng-container>
+
+    <!-- SurajParentGroup - Header row -->
+    <ng-container matColumnDef="suraj-parent-group">
+      <th mat-header-cell *matHeaderCellDef [style.text-align]="center" [attr.colspan]="2">
+        Suraj
+      </th>
+    </ng-container>
+
+    <!-- NeerajParentGroup - Header row -->
+    <ng-container matColumnDef="neeraj-parent-group">
+      <th mat-header-cell *matHeaderCellDef [style.text-align]="center" [attr.colspan]="2">
+        Neeraj
+      </th>
+    </ng-container>
+
+    <!-- PoojaParentGroup - Header row -->
+    <ng-container matColumnDef="pooja-parent-group">
+      <th mat-header-cell *matHeaderCellDef [style.text-align]="center" [attr.colspan]="2">
+        Pooja
+      </th>
+    </ng-container>
+
+    <!-- SnehalParentGroup - Header row -->
+    <ng-container matColumnDef="snehal-parent-group">
+      <th mat-header-cell *matHeaderCellDef [style.text-align]="center" [attr.colspan]="2">
+        Snehal
+      </th>
+    </ng-container>
+
+    <!-- ManasiParentGroup - Header row -->
+    <ng-container matColumnDef="manasi-parent-group">
+      <th mat-header-cell *matHeaderCellDef [style.text-align]="center" [attr.colspan]="2">
+        Manasi
+      </th>
+    </ng-container>
+
+    <!-- RadhikaParentGroup - Header row -->
+    <ng-container matColumnDef="radhika-parent-group">
+      <th mat-header-cell *matHeaderCellDef [style.text-align]="center" [attr.colspan]="2">
+        Radhika
+      </th>
+    </ng-container>
+
+    <!-- ShrutiParentGroup - Header row -->
+    <ng-container matColumnDef="shruti-parent-group">
+      <th mat-header-cell *matHeaderCellDef [style.text-align]="center" [attr.colspan]="2">
+        Shruti
+      </th>
+    </ng-container>
+
+    <!-- ParamParentGroup - Header row -->
+    <ng-container matColumnDef="param-parent-group">
+      <th mat-header-cell *matHeaderCellDef [style.text-align]="center" [attr.colspan]="2">
+        Param
+      </th>
+    </ng-container>
+
+    <!-- PratikParentGroup - Header row -->
+    <ng-container matColumnDef="pratik-parent-group">
+      <th mat-header-cell *matHeaderCellDef [style.text-align]="center" [attr.colspan]="2">
+        Pratik
+      </th>
+    </ng-container>
+
+    <!-- TusharParentGroup - Header row -->
+    <ng-container matColumnDef="tushar-parent-group">
+      <th mat-header-cell *matHeaderCellDef [style.text-align]="center" [attr.colspan]="2">
+        Tushar
+      </th>
+    </ng-container>
+
+    <!-- NehaParentGroup - Header row -->
+    <ng-container matColumnDef="neha-parent-group">
+      <th mat-header-cell *matHeaderCellDef [style.text-align]="center" [attr.colspan]="2">
+        Neha
+      </th>
+    </ng-container>
+
+    <!-- SiddhuParentGroup - Header row -->
+    <ng-container matColumnDef="siddhu-parent-group">
+      <th mat-header-cell *matHeaderCellDef [style.text-align]="center" [attr.colspan]="2">
+        Siddhu
+      </th>
+    </ng-container>
+
+    <!-- PoonamParentGroup - Header row -->
+    <ng-container matColumnDef="poonam-parent-group">
+      <th mat-header-cell *matHeaderCellDef [style.text-align]="center" [attr.colspan]="2">
+        Poonam
+      </th>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="['match-parent-group', 'kalpesh-parent-group', 'kailash-parent-group', 'suraj-parent-group',
+    'neeraj-parent-group', 'pooja-parent-group', 'snehal-parent-group', 'manasi-parent-group', 'radhika-parent-group',
+    'shruti-parent-group', 'param-parent-group', 'pratik-parent-group', 'tushar-parent-group', 'neha-parent-group',
+    'siddhu-parent-group', 'poonam-parent-group']"></tr>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
 </div>
