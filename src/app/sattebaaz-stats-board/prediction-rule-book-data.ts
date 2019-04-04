@@ -64,6 +64,10 @@ export class PredictionRuleBookData {
         {
             id : 8,
             rule : 'Can choose two bowlers of each teams for maximum wickets (addition of both bowlers wicket).'
+        },
+        {
+            id : 9,
+            rule : 'Suggestions....? Most Welcome....'
         }
     ]
 

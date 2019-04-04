@@ -23,6 +23,90 @@ export class OverallStatsData {
         {
             matchFixtures : {
                 sequence : 'Match 1',
+                match : 'CSK vs RCB',
+                result : 'CSK Winner'
+            },
+            contestantStats : [
+                {
+                    name : 'Kalpesh',
+                    bet : 'RCB Winner',
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Kailash',
+                    bet : 'RCB Winner',
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Suraj',
+                    bet : 'CSK Winner',
+                    holdingValue : '7.50'
+                },
+                {
+                    name : 'Neeraj',
+                    bet : 'CSK Winner',
+                    holdingValue : '7.50'
+                },
+                {
+                    name : 'Pooja',
+                    bet : 'RCB Winner',
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Snehal',
+                    bet : 'CSK Winner',
+                    holdingValue : '7.50'
+                },
+                {
+                    name : 'Manasi',
+                    bet : 'CSK Winner',
+                    holdingValue : '7.50'
+                },
+                {
+                    name : 'Radhika',
+                    bet : 'RCB Winner',
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Shruti',
+                    bet : 'CSK Winner',
+                    holdingValue : '7.50'
+                },
+                {
+                    name : 'Param',
+                    bet : 'CSK Winner',
+                    holdingValue : '7.50'
+                },
+                {
+                    name : 'Pratik',
+                    bet : 'CSK Winner',
+                    holdingValue : '7.50'
+                },
+                {
+                    name : 'Tushar',
+                    bet : 'RCB Winner',
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Neha',
+                    bet : 'CSK Winner',
+                    holdingValue : '7.50'
+                },
+                {
+                    name : 'Siddhu',
+                    bet : 'RCB Winner',
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Poonam',
+                    bet : 'NA',
+                    holdingValue : '0'
+                }
+            ]
+        },
+        {
+            matchFixtures : {
+                sequence : 'Match 2',
                 match : 'KKR vs SRH',
                 result : '47 Boundaries'
             },
@@ -106,7 +190,7 @@ export class OverallStatsData {
         },
         {
             matchFixtures : {
-                sequence : 'Match 2',
+                sequence : 'Match 3',
                 match : 'MI vs DC',
                 result : '15 Wickets'
             },
@@ -190,8 +274,8 @@ export class OverallStatsData {
         },
         {
             matchFixtures : {
-                sequence : 'Match 3',
-                match : 'KXIP vs RR',
+                sequence : 'Match 4',
+                match : 'RR vs KXIP',
                 result : 'KXIP Winner'
             },
             contestantStats : [
@@ -274,8 +358,8 @@ export class OverallStatsData {
         },
         {
             matchFixtures : {
-                sequence : 'Match 4',
-                match : 'CSK vs DC',
+                sequence : 'Match 5',
+                match : 'DC vs CSK',
                 result : 'CSK Winner'
             },
             contestantStats : [
@@ -358,7 +442,7 @@ export class OverallStatsData {
         },
         {
             matchFixtures : {
-                sequence : 'Match 5',
+                sequence : 'Match 6',
                 match : 'KKR vs KXIP',
                 result : "33-4's & 24-6's"
             },
@@ -442,7 +526,7 @@ export class OverallStatsData {
         },
         {
             matchFixtures : {
-                sequence : 'Match 6',
+                sequence : 'Match 7',
                 match : 'RCB vs MI',
                 result : "MI Winner"
             },
@@ -526,7 +610,7 @@ export class OverallStatsData {
         },
         {
             matchFixtures : {
-                sequence : 'Match 7',
+                sequence : 'Match 8',
                 match : 'SRH vs RR',
                 result : "5 Catches & Sanju TOP SCORER"
             },
@@ -610,7 +694,7 @@ export class OverallStatsData {
         },
         {
             matchFixtures : {
-                sequence : 'Match 8',
+                sequence : 'Match 9',
                 match : 'KXIP vs MI',
                 result : "Powerplay score 100 & 9 Wickets"
             },
@@ -694,8 +778,8 @@ export class OverallStatsData {
         },
         {
             matchFixtures : {
-                sequence : 'Match 9',
-                match : 'KKR vs DC',
+                sequence : 'Match 10',
+                match : 'DC vs KKR',
                 result : "38-4's & 15-6's"
             },
             contestantStats : [
@@ -778,7 +862,7 @@ export class OverallStatsData {
         },
         {
             matchFixtures : {
-                sequence : 'Match 10',
+                sequence : 'Match 11',
                 match : 'SRH vs RCB',
                 result : "Chahal TOP Wicket TAKER"
             },
@@ -862,7 +946,7 @@ export class OverallStatsData {
         },
         {
             matchFixtures : {
-                sequence : 'Match 11',
+                sequence : 'Match 12',
                 match : 'CSK vs RR',
                 result : "Raina TOP SCORER"
             },
