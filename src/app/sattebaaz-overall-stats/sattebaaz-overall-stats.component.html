@@ -20,6 +20,12 @@
     <!--- Note that these columns can be defined in any order.
           The actual rendered columns are set as a property on the row definition" -->
 
+    <!-- Match Sequence Column -->
+    <ng-container matColumnDef="matchSequence">
+      <th mat-header-cell *matHeaderCellDef style="background-color: powderblue;font-weight: 900;"> Sequence </th>
+      <td mat-cell *matCellDef="let element" style="background-color: aliceblue;font-weight: 900;"> {{element.matchFixtures.sequence}} </td>
+    </ng-container>
+
     <!-- Fixtures Column -->
     <ng-container matColumnDef="fixtures" >
       <th mat-header-cell *matHeaderCellDef style="background-color: powderblue;font-weight: 900;"> Fixtures </th>
@@ -215,7 +221,7 @@
 
     <!-- MatchParentGroup - Header row-->
     <ng-container matColumnDef="match-parent-group" >
-      <th mat-header-cell *matHeaderCellDef style="background-color: skyblue;font-weight: 900;" [attr.colspan]="2">
+      <th mat-header-cell *matHeaderCellDef style="background-color: skyblue;font-weight: 900;" [attr.colspan]="3">
         Matches
       </th>
     </ng-container>

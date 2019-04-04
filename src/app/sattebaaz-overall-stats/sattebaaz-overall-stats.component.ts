@@ -15,7 +15,7 @@ export class SattebaazOverallStatsComponent implements OnInit {
 
   constructor(private overallStat: OverallStatsData, private router : Router) { }
 
-  displayedColumns: string[] = ['fixtures', 'results',
+  displayedColumns: string[] = ['matchSequence', 'fixtures', 'results',
     'kalpeshBet', 'kalpeshHoldingValue',
     'kailashBet', 'kailashHoldingValue',
     'surajBet', 'surajHoldingValue',
