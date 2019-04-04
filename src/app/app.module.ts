@@ -1,3 +1,4 @@
+import { OverallStatsData } from './sattebaaz-overall-stats/overall-stats-data';
 import { DashboardData } from './sattebaaz-stats-board/dashboard-data';
 import { ContestantData } from './sattebaaz-stats-board/contestent-data';
 import { MatchFixturesData } from './sattebaaz-stats-board/match-fixtures-data';
@@ -54,7 +55,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatchFixturesData,
     ContestantData,
     DashboardData,
-    PredictionRuleBookData
+    PredictionRuleBookData,
+    OverallStatsData
   ],
   bootstrap: [AppComponent]
 })
