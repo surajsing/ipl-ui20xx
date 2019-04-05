@@ -1028,6 +1028,342 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures : {
+                sequence : 'Match 13',
+                match : 'KXIP vs DC',
+                result : "KXIP Winner"
+            },
+            contestantStats : [
+                {
+                    name : 'Kalpesh',
+                    bet : "DC Winner",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Kailash',
+                    bet : "DC Winner",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Suraj',
+                    bet : "KXIP Winner",
+                    holdingValue : '25.00'
+                },
+                {
+                    name : 'Neeraj',
+                    bet : "DC Winner",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Pooja',
+                    bet : "DC Winner",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Snehal',
+                    bet : "DC Winner",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Manasi',
+                    bet : "KXIP Winner",
+                    holdingValue : '25.00'
+                },
+                {
+                    name : 'Radhika',
+                    bet : "DC Winner",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Shruti',
+                    bet : "DC Winner",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Param',
+                    bet : "DC Winner",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Pratik',
+                    bet : "KXIP Winner",
+                    holdingValue : '25.00'
+                },
+                {
+                    name : 'Tushar',
+                    bet : "DC Winner",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Neha',
+                    bet : "DC Winner",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Siddhu',
+                    bet : "KXIP Winner",
+                    holdingValue : '25.00'
+                },
+                {
+                    name : 'Poonam',
+                    bet : "NA",
+                    holdingValue : '0'
+                }
+            ]
+        },
+        {
+            matchFixtures : {
+                sequence : 'Match 14',
+                match : 'RR vs RCB',
+                result : "Total Run 322"
+            },
+            contestantStats : [
+                {
+                    name : 'Kalpesh',
+                    bet : "350",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Kailash',
+                    bet : "381",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Suraj',
+                    bet : "347",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Neeraj',
+                    bet : "350",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Pooja',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Snehal',
+                    bet : "NA",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Manasi',
+                    bet : "337",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Radhika',
+                    bet : "354",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Shruti',
+                    bet : "337",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Param',
+                    bet : "330",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Pratik',
+                    bet : "321",
+                    holdingValue : '100.00'
+                },
+                {
+                    name : 'Tushar',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Neha',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Siddhu',
+                    bet : "375",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Poonam',
+                    bet : "340",
+                    holdingValue : '-10.00'
+                }
+            ]
+        },
+        {
+            matchFixtures : {
+                sequence : 'Match 15',
+                match : 'MI vs CSK',
+                result : "Top Scorer Suryakumar & Tahir"
+            },
+            contestantStats : [
+                {
+                    name : 'Kalpesh',
+                    bet : "Raina & Chahar",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Kailash',
+                    bet : "Rohit & Bravo",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Suraj',
+                    bet : "Suryakumar & Bumrah",
+                    holdingValue : '60.00'
+                },
+                {
+                    name : 'Neeraj',
+                    bet : "Raina & Bravo",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Pooja',
+                    bet : "De Cock & Chahar",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Snehal',
+                    bet : "De Cock & Bravo",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Manasi',
+                    bet : "Rohit & Tahir",
+                    holdingValue : '7.50'
+                },
+                {
+                    name : 'Radhika',
+                    bet : "De Cock & Tahir",
+                    holdingValue : '7.50'
+                },
+                {
+                    name : 'Shruti',
+                    bet : "Rohit & Bumrah",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Param',
+                    bet : "Raina & Bumrah",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Pratik',
+                    bet : "Watson & Bumrah",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Tushar',
+                    bet : "Rohit & Bumrah",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Neha',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Siddhu',
+                    bet : "Rohit & Tahir",
+                    holdingValue : '7.50'
+                },
+                {
+                    name : 'Poonam',
+                    bet : "Rohit & Tahir",
+                    holdingValue : '7.50'
+                }
+            ]
+        },
+        {
+            matchFixtures : {
+                sequence : 'Match 16',
+                match : 'DC vs SRH',
+                result : "Toss & Match Winner - SRH"
+            },
+            contestantStats : [
+                {
+                    name : 'Kalpesh',
+                    bet : "SRH & SRH",
+                    holdingValue : '12.91'
+                },
+                {
+                    name : 'Kailash',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Suraj',
+                    bet : "DC & SRH",
+                    holdingValue : '-0.84'
+                },
+                {
+                    name : 'Neeraj',
+                    bet : "DC & DC",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Pooja',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Snehal',
+                    bet : "DC & SRH",
+                    holdingValue : '-0.84'
+                },
+                {
+                    name : 'Manasi',
+                    bet : "DC & DC",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Radhika',
+                    bet : "SRH & SRH",
+                    holdingValue : '12.91'
+                },
+                {
+                    name : 'Shruti',
+                    bet : "DC & DC",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Param',
+                    bet : "SRH & SRH",
+                    holdingValue : '12.91'
+                },
+                {
+                    name : 'Pratik',
+                    bet : "DC & DC",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Tushar',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Neha',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Siddhu',
+                    bet : "DC & DC",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Poonam',
+                    bet : "SRH & SRH",
+                    holdingValue : '12.91'
+                }
+            ]
+        },
 
     ]
 
