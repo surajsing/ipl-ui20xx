@@ -152,7 +152,7 @@ export class ContestantData {
         {
             sequence : 14,
             name: {
-                firstName : 'Siddhhu',
+                firstName : 'Siddhu',
                 lastName : 'Singh'
             },
             role: 'Sattebaaz',
