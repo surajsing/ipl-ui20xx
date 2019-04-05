@@ -1282,30 +1282,30 @@ export class OverallStatsData {
         },
         {
             matchFixtures : {
-                sequence : 'Match 16',
-                match : 'DC vs SRH',
-                result : "Toss & Match Winner - SRH"
+                sequence : 'Match 17',
+                match : 'RCB vs KKR',
+                result : "KKR Winner & 19-6's"
             },
             contestantStats : [
                 {
                     name : 'Kalpesh',
-                    bet : "SRH & SRH",
-                    holdingValue : '12.91'
+                    bet : "KKR & 25",
+                    holdingValue : '0.00'
                 },
                 {
                     name : 'Kailash',
-                    bet : "NA",
-                    holdingValue : '0'
+                    bet : "RCB & 27",
+                    holdingValue : '-10.00'
                 },
                 {
                     name : 'Suraj',
-                    bet : "DC & SRH",
-                    holdingValue : '-0.84'
+                    bet : "RCB & 23",
+                    holdingValue : '-10.00'
                 },
                 {
                     name : 'Neeraj',
-                    bet : "DC & DC",
-                    holdingValue : '-10.00'
+                    bet : "NA",
+                    holdingValue : '0'
                 },
                 {
                     name : 'Pooja',
@@ -1314,32 +1314,32 @@ export class OverallStatsData {
                 },
                 {
                     name : 'Snehal',
-                    bet : "DC & SRH",
-                    holdingValue : '-0.84'
+                    bet : "NA",
+                    holdingValue : '0'
                 },
                 {
                     name : 'Manasi',
-                    bet : "DC & DC",
-                    holdingValue : '-10.00'
+                    bet : "KKR & 16",
+                    holdingValue : '0.00'
                 },
                 {
                     name : 'Radhika',
-                    bet : "SRH & SRH",
-                    holdingValue : '12.91'
+                    bet : "KKR & 18",
+                    holdingValue : '0.00'
                 },
                 {
                     name : 'Shruti',
-                    bet : "DC & DC",
-                    holdingValue : '-10.00'
+                    bet : "KKR & 26",
+                    holdingValue : '0.00'
                 },
                 {
                     name : 'Param',
-                    bet : "SRH & SRH",
-                    holdingValue : '12.91'
+                    bet : "KKR & 22",
+                    holdingValue : '0.00'
                 },
                 {
                     name : 'Pratik',
-                    bet : "DC & DC",
+                    bet : "RCB & 11",
                     holdingValue : '-10.00'
                 },
                 {
@@ -1354,13 +1354,13 @@ export class OverallStatsData {
                 },
                 {
                     name : 'Siddhu',
-                    bet : "DC & DC",
-                    holdingValue : '-10.00'
+                    bet : "RCB & 19",
+                    holdingValue : '40.00'
                 },
                 {
                     name : 'Poonam',
-                    bet : "SRH & SRH",
-                    holdingValue : '12.91'
+                    bet : "RCB & 22",
+                    holdingValue : '-10.00'
                 }
             ]
         },
