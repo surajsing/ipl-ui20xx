@@ -12,7 +12,7 @@ export class DashboardData{
     public topFiveContestant : PeriodicElements[] = [
         {
             name : 'Suraj',
-            weight: '192.91 INR'
+            weight: '182.91 INR'
         },
         {
             name : 'Kalpesh',
@@ -20,11 +20,11 @@ export class DashboardData{
         },
         {
             name : 'Pratik',
-            weight: '95.92 INR'
+            weight: '85.92 INR'
         },
         {
             name : 'Kailash',
-            weight: '81.25 INR'
+            weight: '71.25 INR'
         },
         {
             name : 'Manasi',
