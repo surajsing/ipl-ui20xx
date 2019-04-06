@@ -177,7 +177,7 @@ export class MatchFixturesData {
             teamOne: 'CSK',
             teamTwo: 'KXIP',
             date: new Date(2019, 3, 6),
-            winner: 'NYD'
+            winner: 'CSK'
         },
         {
             sequence: 'Match 19',
@@ -186,7 +186,7 @@ export class MatchFixturesData {
             teamOne: 'SRH',
             teamTwo: 'MI',
             date: new Date(2019, 3, 6),
-            winner: 'NYD'
+            winner: 'MI'
         },
         {
             sequence: 'Match 20',

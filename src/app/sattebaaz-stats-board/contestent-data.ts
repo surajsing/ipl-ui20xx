@@ -27,7 +27,7 @@ export class ContestantData {
             },
             role: 'Admin',
             currentHoldingLabel: 'Current Holding Value',
-            currentHoldingValue: '182.91 INR'
+            currentHoldingValue: '172.91 INR'
         },
         {
             sequence : 2,
@@ -37,7 +37,7 @@ export class ContestantData {
             },
             role: 'Onshore Sattebaaz',
             currentHoldingLabel: 'Current Holding Value',
-            currentHoldingValue: '71.25 INR'
+            currentHoldingValue: '61.25 INR'
         },
         {
             sequence : 3,
@@ -47,7 +47,7 @@ export class ContestantData {
             },
             role: 'Sattebaaz',
             currentHoldingLabel: 'Current Holding Value',
-            currentHoldingValue: '174.58 INR'
+            currentHoldingValue: '164.58 INR'
         },
         {
             sequence : 4,
@@ -97,7 +97,7 @@ export class ContestantData {
             },
             role: 'Sattebaaz',
             currentHoldingLabel: 'Current Holding Value',
-            currentHoldingValue: '-55.42 INR'
+            currentHoldingValue: '24.58 INR'
         },
         {
             sequence : 9,
@@ -107,7 +107,7 @@ export class ContestantData {
             },
             role: 'Sattebaaz',
             currentHoldingLabel: 'Current Holding Value',
-            currentHoldingValue: '-87.50 INR'
+            currentHoldingValue: '-97.50 INR'
         },
         {
             sequence : 10,
@@ -117,7 +117,7 @@ export class ContestantData {
             },
             role: 'Sattebaaz',
             currentHoldingLabel: 'Current Holding Value',
-            currentHoldingValue: '-63.34 INR'
+            currentHoldingValue: '-73.34 INR'
         },
         {
             sequence : 11,
@@ -127,7 +127,7 @@ export class ContestantData {
             },
             role: 'Sattebaaz',
             currentHoldingLabel: 'Current Holding Value',
-            currentHoldingValue: '85.92 INR'
+            currentHoldingValue: '75.92 INR'
         },
         {
             sequence : 12,
@@ -137,7 +137,7 @@ export class ContestantData {
             },
             role: 'Onshore Sattebaaz',
             currentHoldingLabel: 'Current Holding Value',
-            currentHoldingValue: '-75.75 INR'
+            currentHoldingValue: '-85.75 INR'
         },
         {
             sequence : 13,
@@ -157,7 +157,7 @@ export class ContestantData {
             },
             role: 'Sattebaaz',
             currentHoldingLabel: 'Current Holding Value',
-            currentHoldingValue: '2.50 INR'
+            currentHoldingValue: '-7.50 INR'
         },
         {
             sequence : 15,

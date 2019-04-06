@@ -1448,6 +1448,174 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures : {
+                sequence : 'Match 18',
+                match : 'CSK vs KXIP',
+                result : "Top Run Scorer DuPlesis"
+            },
+            contestantStats : [
+                {
+                    name : 'Kalpesh',
+                    bet : "Mayank",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Kailash',
+                    bet : "Rayudu",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Suraj',
+                    bet : "Rayudu",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Neeraj',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Pooja',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Snehal',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Manasi',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Radhika',
+                    bet : "DuPlesis",
+                    holdingValue : '80.00'
+                },
+                {
+                    name : 'Shruti',
+                    bet : "Gayle",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Param',
+                    bet : "Gayle",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Pratik',
+                    bet : "Watson",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Tushar',
+                    bet : "Dhoni",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Neha',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Siddhu',
+                    bet : "Watson",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Poonam',
+                    bet : "NA",
+                    holdingValue : '0'
+                }
+            ]
+        },
+        {
+            matchFixtures : {
+                sequence : 'Match 19',
+                match : 'SRH vs MI',
+                result : "Powerplay Score 69 - CANCELLED"
+            },
+            contestantStats : [
+                {
+                    name : 'Kalpesh',
+                    bet : "100",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Kailash',
+                    bet : "107",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Suraj',
+                    bet : "95",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Neeraj',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Pooja',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Snehal',
+                    bet : "107",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Manasi',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Radhika',
+                    bet : "115",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Shruti',
+                    bet : "111",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Param',
+                    bet : "110",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Pratik',
+                    bet : "96",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Tushar',
+                    bet : "95",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Neha',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Siddhu',
+                    bet : "117",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Poonam',
+                    bet : "NA",
+                    holdingValue : '0'
+                }
+            ]
+        },
 
     ]
 
