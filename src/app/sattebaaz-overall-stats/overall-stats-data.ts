@@ -1616,6 +1616,174 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures : {
+                sequence : 'Match 20',
+                match : 'RCB vs DC',
+                result : "26-4's & 10-6's"
+            },
+            contestantStats : [
+                {
+                    name : 'Kalpesh',
+                    bet : "45-4's & 10-6's",
+                    holdingValue : '45.00'
+                },
+                {
+                    name : 'Kailash',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Suraj',
+                    bet : "38-4's & 17-6's",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Neeraj',
+                    bet : "41-4's & 13-6's",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Pooja',
+                    bet : "31-4's & 16-6's",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Snehal',
+                    bet : "34-4's & 17-6's",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Manasi',
+                    bet : "28-4's & 18-6's",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Radhika',
+                    bet : "26-4's & 28-6's",
+                    holdingValue : '45.00'
+                },
+                {
+                    name : 'Shruti',
+                    bet : "38-4's & 14-6's",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Param',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Pratik',
+                    bet : "36-4's & 20-6's",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Tushar',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Neha',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Siddhu',
+                    bet : "32-4's & 16-6's",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Poonam',
+                    bet : "33-4's & 19-6's",
+                    holdingValue : '-10.00'
+                }
+            ]
+        },
+        {
+            matchFixtures : {
+                sequence : 'Match 21',
+                match : 'RR vs KKR',
+                result : "Total 5 Wickets - CANCELLED"
+            },
+            contestantStats : [
+                {
+                    name : 'Kalpesh',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Kailash',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Suraj',
+                    bet : "11",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Neeraj',
+                    bet : "11",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Pooja',
+                    bet : "15",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Snehal',
+                    bet : "9",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Manasi',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Radhika',
+                    bet : "14",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Shruti',
+                    bet : "11",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Param',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Pratik',
+                    bet : "13",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Tushar',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Neha',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Siddhu',
+                    bet : "9",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Poonam',
+                    bet : "NA",
+                    holdingValue : '0'
+                }
+            ]
+        },
 
     ]
 
