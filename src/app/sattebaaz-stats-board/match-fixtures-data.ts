@@ -195,7 +195,7 @@ export class MatchFixturesData {
             teamOne: 'RCB',
             teamTwo: 'DC',
             date: new Date(2019, 3, 7),
-            winner: 'NYD'
+            winner: 'DC'
         },
         {
             sequence: 'Match 21',
@@ -204,7 +204,7 @@ export class MatchFixturesData {
             teamOne: 'RR',
             teamTwo: 'KKR',
             date: new Date(2019, 3, 7),
-            winner: 'NYD'
+            winner: 'KKR'
         },
         {
             sequence: 'Match 22',
