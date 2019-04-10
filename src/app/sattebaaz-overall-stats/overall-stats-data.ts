@@ -1784,6 +1784,174 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures : {
+                sequence : 'Match 22',
+                match : 'KXIP vs SRH',
+                result : "Lowest Run Scorer - Mandeep S"
+            },
+            contestantStats : [
+                {
+                    name : 'Kalpesh',
+                    bet : "Gayle",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Kailash',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Suraj',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Neeraj',
+                    bet : "Y Pathan",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Pooja',
+                    bet : "Mandeep S",
+                    holdingValue : '80.00'
+                },
+                {
+                    name : 'Snehal',
+                    bet : "Y Pathan",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Manasi',
+                    bet : "Gayle",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Radhika',
+                    bet : "Y Pathan",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Shruti',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Param',
+                    bet : "V Shankar",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Pratik',
+                    bet : "Warner",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Tushar',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Neha',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Siddhu',
+                    bet : "Sarfaraz K",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Poonam',
+                    bet : "NA",
+                    holdingValue : '0'
+                }
+            ]
+        },
+        {
+            matchFixtures : {
+                sequence : 'Match 23',
+                match : 'CSK vs KKR',
+                result : "NA"
+            },
+            contestantStats : [
+                {
+                    name : 'Kalpesh',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Kailash',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Suraj',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Neeraj',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Pooja',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Snehal',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Manasi',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Radhika',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Shruti',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Param',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Pratik',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Tushar',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Neha',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Siddhu',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Poonam',
+                    bet : "NA",
+                    holdingValue : '0'
+                }
+            ]
+        },
 
     ]
 
