@@ -16,7 +16,11 @@ export class DashboardData{
         },
         {
             name : 'Suraj',
-            weight: '162.91 INR'
+            weight: '152.91 INR'
+        },
+        {
+            name : 'Pratik',
+            weight: '90.92 INR'
         },
         {
             name : 'Kailash',
@@ -24,11 +28,7 @@ export class DashboardData{
         },
         {
             name : 'Radhika',
-            weight: '59.58 INR'
-        },
-        {
-            name : 'Pratik',
-            weight: '55.92 INR'
+            weight: '49.58 INR'
         }
     ]
 
@@ -42,16 +42,16 @@ export class DashboardData{
             weight : '-107.00 INR'
         },
         {
+            name : 'Tushar',
+            weight : '-95.75 INR'
+        },
+        {
             name : 'Neha',
             weight : '-93.75 INR'
         },
         {
-            name : 'Tushar',
-            weight : '-85.75 INR'
-        },
-        {
             name : 'Param',
-            weight : '-83.34 INR'
+            weight : '-93.34 INR'
         }
     ]
 

@@ -1952,6 +1952,90 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures : {
+                sequence : 'Match 24',
+                match : 'MI vs KXIP',
+                result : "Total Run 395 & Total Wickets 11"
+            },
+            contestantStats : [
+                {
+                    name : 'Kalpesh',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Kailash',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Suraj',
+                    bet : "353 & 9",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Neeraj',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Pooja',
+                    bet : "387 & 13",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Snehal',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Manasi',
+                    bet : "337 & 13",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Radhika',
+                    bet : "354 & 13",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Shruti',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Param',
+                    bet : "330 & 12",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Pratik',
+                    bet : "370 & 11",
+                    holdingValue : '35.00'
+                },
+                {
+                    name : 'Tushar',
+                    bet : "335 & 14",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Neha',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Siddhu',
+                    bet : "367 & 9",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Poonam',
+                    bet : "409 & 13",
+                    holdingValue : '35.00'
+                }
+            ]
+        },
 
     ]
 
