@@ -2036,6 +2036,90 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures : {
+                sequence : 'Match 25',
+                match : 'RR vs CSK',
+                result : "Top Run Scorer - Sanju & Rayudu"
+            },
+            contestantStats : [
+                {
+                    name : 'Kalpesh',
+                    bet : "Rahane & Jadhav",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Kailash',
+                    bet : "Sanju & Rayudu",
+                    holdingValue : '80.00'
+                },
+                {
+                    name : 'Suraj',
+                    bet : "Buttler & Watson",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Neeraj',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Pooja',
+                    bet : "Buttler & DuPlesis",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Snehal',
+                    bet : "Smith & DuPlesis",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Manasi',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Radhika',
+                    bet : "Buttler & Watson",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Shruti',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Param',
+                    bet : "Buttler & Watson",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Pratik',
+                    bet : "Smith & Watson",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Tushar',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Neha',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Siddhu',
+                    bet : "Buttler & Watson",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Poonam',
+                    bet : "NA",
+                    holdingValue : '0'
+                }
+            ]
+        },
 
     ]
 
