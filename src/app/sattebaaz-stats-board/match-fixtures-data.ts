@@ -256,7 +256,7 @@ export class MatchFixturesData {
             teamOne: 'MI',
             teamTwo: 'KXIP',
             date: new Date(2019, 3, 10),
-            winner: 'NYD'
+            winner: 'MI'
         },
         {
             sequence: 'Match 25',
@@ -272,7 +272,7 @@ export class MatchFixturesData {
             sequence: 'Match 26',
             fixtures: 'KKR vs DC',
             location: 'Kolkata',
-            bet: 'Bet - Top Run Scorer',
+            bet: 'Bet - Top Run Scorer & Match Winner',
             teamOne: 'KKR',
             teamTwo: 'DC',
             date: new Date(2019, 3, 12),
