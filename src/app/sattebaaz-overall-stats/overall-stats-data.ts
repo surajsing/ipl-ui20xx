@@ -2124,7 +2124,7 @@ export class OverallStatsData {
             matchFixtures : {
                 sequence : 'Match 26',
                 match : 'KKR vs DC',
-                result : "Top Run Scorer - Sanju & Match Winner - DC"
+                result : "Top Run Scorer - Dhawan & Match Winner - DC"
             },
             contestantStats : [
                 {
