@@ -2120,6 +2120,90 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures : {
+                sequence : 'Match 26',
+                match : 'KKR vs DC',
+                result : "Top Run Scorer - Sanju & Match Winner - DC"
+            },
+            contestantStats : [
+                {
+                    name : 'Kalpesh',
+                    bet : "N Rana & KKR",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Kailash',
+                    bet : "Dhawan & KKR",
+                    holdingValue : '50.00'
+                },
+                {
+                    name : 'Suraj',
+                    bet : "N Rana & KKR",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Neeraj',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Pooja',
+                    bet : "Colin & KKR",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Snehal',
+                    bet : "Russell & KKR",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Manasi',
+                    bet : "S Iyer & KKR",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Radhika',
+                    bet : "P Shaw & DC",
+                    holdingValue : '20.00'
+                },
+                {
+                    name : 'Shruti',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Param',
+                    bet : "N Rana & KKR",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Pratik',
+                    bet : "Russell & KKR",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Tushar',
+                    bet : "Russell & KKR",
+                    holdingValue : '-10.00'
+                },
+                {
+                    name : 'Neha',
+                    bet : "NA",
+                    holdingValue : '0'
+                },
+                {
+                    name : 'Siddhu',
+                    bet : "N Rana & DC",
+                    holdingValue : '20.00'
+                },
+                {
+                    name : 'Poonam',
+                    bet : "Uthappa & KKR",
+                    holdingValue : '-10.00'
+                }
+            ]
+        },
 
     ]
 
