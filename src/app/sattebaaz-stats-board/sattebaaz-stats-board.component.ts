@@ -72,11 +72,11 @@ export class SattebaazStatsBoardComponent implements OnInit {
       let contData: [] = element['contestantStats'];
       contData.forEach(data => {
         switch (data['name']) {
-          case 'Kalpesh': kalpeshTotal = kalpeshTotal + parseFloat(data['holdingValue']);
+          case 'Suraj': surajTotal = surajTotal + parseFloat(data['holdingValue']);
             break
           case 'Kailash': kailashTotal = kailashTotal + parseFloat(data['holdingValue']);
             break
-          case 'Suraj': surajTotal = surajTotal + parseFloat(data['holdingValue']);
+          case 'Kalpesh': kalpeshTotal = kalpeshTotal + parseFloat(data['holdingValue']);
             break
           case 'Neeraj': neerajTotal = neerajTotal + parseFloat(data['holdingValue']);
             break
