@@ -286,7 +286,7 @@ export class MatchFixturesData {
             teamOne: 'MI',
             teamTwo: 'RR',
             date: new Date(2019, 3, 13),
-            winner: 'NYD'
+            winner: 'RR'
         },
         {
             sequence: 'Match 28',
@@ -296,13 +296,13 @@ export class MatchFixturesData {
             teamOne: 'KXIP',
             teamTwo: 'RCB',
             date: new Date(2019, 3, 13),
-            winner: 'NYD'
+            winner: 'RCB'
         },
         {
             sequence: 'Match 29',
             fixtures: 'KKR vs CSK',
             location: 'Kolkata',
-            bet: 'Bet - Individual Powerplay Scores',
+            bet: 'Bet - Total Wickets Post Powerplay & Match Winner',
             teamOne: 'KKR',
             teamTwo: 'CSK',
             date: new Date(2019, 3, 14),
@@ -312,7 +312,7 @@ export class MatchFixturesData {
             sequence: 'Match 30',
             fixtures: 'SRH vs DC',
             location: 'Hyderabad',
-            bet: "Bet - Total Boundaries & Total Wickets",
+            bet: "Bet - Total Boundaries & Scorers over 30",
             teamOne: 'SRH',
             teamTwo: 'DC',
             date: new Date(2019, 3, 14),
