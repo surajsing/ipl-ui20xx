@@ -11,7 +11,7 @@ export interface MatchFixtures {
     winner: string
 }
 @Injectable({
-    providedIn : 'root'
+    providedIn: 'root'
 })
 export class MatchFixturesData {
     constructor() {
@@ -580,7 +580,7 @@ export class MatchFixturesData {
         }
     ];
 
-    getMatchData(){
+    getMatchData() {
         return this.matches;
     }
 }

@@ -13,7 +13,7 @@ export class SattebaazOverallStatsComponent implements OnInit {
 
   dataSource: MatTableDataSource<OverallStats>;
 
-  constructor(private overallStat: OverallStatsData, private router : Router) { }
+  constructor(private overallStat: OverallStatsData, private router: Router) { }
 
   displayedColumns: string[] = ['matchSequence', 'fixtures', 'results',
     'kalpeshBet', 'kalpeshHoldingValue',
@@ -34,7 +34,7 @@ export class SattebaazOverallStatsComponent implements OnInit {
 
   ngOnInit() {
     this.dataSource = new MatTableDataSource(this.overallStat.getOverallIPLStats());
-    setTimeout(()=> {
+    setTimeout(() => {
       this.router.navigate(['/']);
     }, 300000);
   }

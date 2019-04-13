@@ -3,8 +3,8 @@ import { PeriodicElements, DashboardData } from './dashboard-data';
 import { ContestantData } from './contestent-data';
 import { MatchFixturesData } from './match-fixtures-data';
 import { Component, OnInit } from '@angular/core';
-import {MatTableDataSource} from '@angular/material';
-import {MatDatepickerInputEvent} from '@angular/material/datepicker';
+import { MatTableDataSource } from '@angular/material';
+import { MatDatepickerInputEvent } from '@angular/material/datepicker';
 
 @Component({
   selector: 'app-sattebaaz-stats-board',
@@ -13,27 +13,27 @@ import {MatDatepickerInputEvent} from '@angular/material/datepicker';
 })
 export class SattebaazStatsBoardComponent implements OnInit {
 
-  matches : any;
-  contestants : any;
-  top_5_contestant : PeriodicElements[];
-  bottom_5_contestant : PeriodicElements[];
-  top_5_contestant_dataSource : MatTableDataSource<PeriodicElements>;
-  bottom_5_contestant_dataSorce : MatTableDataSource<PeriodicElements>;
-  publishRules : any;
-  predictionRules : any;
-  appliedDate : string;
+  matches: any;
+  contestants: any;
+  top_5_contestant: PeriodicElements[];
+  bottom_5_contestant: PeriodicElements[];
+  top_5_contestant_dataSource: MatTableDataSource<PeriodicElements>;
+  bottom_5_contestant_dataSorce: MatTableDataSource<PeriodicElements>;
+  publishRules: any;
+  predictionRules: any;
+  appliedDate: string;
   minDate = new Date(2019, 2, 23);
   maxDate = new Date(2019, 4, 5);
 
-  constructor(match : MatchFixturesData,
-     contestant : ContestantData,
-      private dashboardData : DashboardData,
-      ruleBook : PredictionRuleBookData) {
+  constructor(match: MatchFixturesData,
+    contestant: ContestantData,
+    private dashboardData: DashboardData,
+    ruleBook: PredictionRuleBookData) {
     this.matches = match.getMatchData();
     this.contestants = contestant.getContestantData();
     this.publishRules = ruleBook.getPublishRules();
     this.predictionRules = ruleBook.getPredictionRules();
-   }
+  }
 
   displayedColumns: string[] = ['name', 'weight'];
 
@@ -49,7 +49,7 @@ export class SattebaazStatsBoardComponent implements OnInit {
 
   addEvent(type: string, event: MatDatepickerInputEvent<Date>) {
     this.events.push(`${type}: ${event.value}`);
-    if(event.value){
+    if (event.value) {
       this.appliedDate = (event.value).toDateString();
     } else {
       this.appliedDate = undefined;
