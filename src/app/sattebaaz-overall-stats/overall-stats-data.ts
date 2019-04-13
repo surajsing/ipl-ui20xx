@@ -2204,6 +2204,174 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Match 27',
+                match: 'MI vs RR',
+                result: "Total Powerplay Score 116 & Catches 8"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "100 & 5",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "104 & 7",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "105 & 6",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "144 & 13",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "117 & 13",
+                    holdingValue: '40.00'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "100 & 5",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "110 & 5",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Param',
+                    bet: "110 & 6",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "110 & 8",
+                    holdingValue: '40.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "111 & 6",
+                    holdingValue: '-10.00'
+                }
+            ]
+        },
+        {
+            matchFixtures: {
+                sequence: 'Match 28',
+                match: 'KXIP vs RCB',
+                result: "Total 6's-10 CNCL & Top Wicket Taker Chahal"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "15 & Ashwin",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "15 & Curran",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "14 & Shami",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "14 & Chahal",
+                    holdingValue: '8.33'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "22 & Chahal",
+                    holdingValue: '8.33'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "22 & Curran",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "20 & Murugan",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "19 & Chahal",
+                    holdingValue: '8.33'
+                }
+            ]
+        },
 
     ]
 
