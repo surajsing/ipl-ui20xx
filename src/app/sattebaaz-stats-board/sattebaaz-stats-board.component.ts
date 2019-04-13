@@ -1,11 +1,15 @@
 import { PredictionRuleBookData } from './prediction-rule-book-data';
-import { PeriodicElements, DashboardData } from './dashboard-data';
 import { ContestantData } from './contestent-data';
 import { MatchFixturesData } from './match-fixtures-data';
 import { Component, OnInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material';
 import { MatDatepickerInputEvent } from '@angular/material/datepicker';
 import { OverallStatsData } from '../sattebaaz-overall-stats/overall-stats-data';
+
+export interface DashboardElements {
+  name: string,
+  holdingValue: string
+}
 
 @Component({
   selector: 'app-sattebaaz-stats-board',
@@ -16,10 +20,10 @@ export class SattebaazStatsBoardComponent implements OnInit {
 
   matches: any;
   contestants: any;
-  top_5_contestant: PeriodicElements[];
-  bottom_5_contestant: PeriodicElements[];
-  top_5_contestant_dataSource: MatTableDataSource<PeriodicElements>;
-  bottom_5_contestant_dataSorce: MatTableDataSource<PeriodicElements>;
+  top_5_contestant: DashboardElements[];
+  bottom_5_contestant: DashboardElements[];
+  top_5_contestant_dataSource: MatTableDataSource<DashboardElements>;
+  bottom_5_contestant_dataSorce: MatTableDataSource<DashboardElements>;
   publishRules: any;
   predictionRules: any;
   appliedDate: string;
@@ -31,7 +35,6 @@ export class SattebaazStatsBoardComponent implements OnInit {
 
   constructor(match: MatchFixturesData,
     private contestant: ContestantData,
-    private dashboardData: DashboardData,
     ruleBook: PredictionRuleBookData,
     statsData: OverallStatsData) {
     this.matches = match.getMatchData();
@@ -40,7 +43,7 @@ export class SattebaazStatsBoardComponent implements OnInit {
     this.contestantStatsData = statsData.getOverallIPLStats();
   }
 
-  displayedColumns: string[] = ['name', 'weight'];
+  displayedColumns: string[] = ['name', 'holdingValue'];
 
   applyFilterTopFive(filterValue: string) {
     this.top_5_contestant_dataSource.filter = filterValue.trim().toLowerCase();
@@ -104,98 +107,98 @@ export class SattebaazStatsBoardComponent implements OnInit {
     });
     this.contestants[0]['currentHoldingValue'] = (surajTotal.toFixed(2) + ' ' + 'INR');
     this.dashboardPreData['name'] = this.contestants[0]['name']['firstName'];
-    this.dashboardPreData['weight'] = surajTotal.toFixed(2);
+    this.dashboardPreData['holdingValue'] = surajTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
     this.contestants[1]['currentHoldingValue'] = (kailashTotal.toFixed(2) + ' ' + 'INR');
     this.dashboardPreData['name'] = this.contestants[1]['name']['firstName'];
-    this.dashboardPreData['weight'] = kailashTotal.toFixed(2);
+    this.dashboardPreData['holdingValue'] = kailashTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
     this.contestants[2]['currentHoldingValue'] = (kalpeshTotal.toFixed(2) + ' ' + 'INR');
     this.dashboardPreData['name'] = this.contestants[2]['name']['firstName'];
-    this.dashboardPreData['weight'] = kalpeshTotal.toFixed(2);
+    this.dashboardPreData['holdingValue'] = kalpeshTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
     this.contestants[3]['currentHoldingValue'] = (neerajTotal.toFixed(2) + ' ' + 'INR');
     this.dashboardPreData['name'] = this.contestants[3]['name']['firstName'];
-    this.dashboardPreData['weight'] = neerajTotal.toFixed(2);
+    this.dashboardPreData['holdingValue'] = neerajTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
     this.contestants[4]['currentHoldingValue'] = (poojaTotal.toFixed(2) + ' ' + 'INR');
     this.dashboardPreData['name'] = this.contestants[4]['name']['firstName'];
-    this.dashboardPreData['weight'] = poojaTotal.toFixed(2);
+    this.dashboardPreData['holdingValue'] = poojaTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
     this.contestants[5]['currentHoldingValue'] = (snehalTotal.toFixed(2) + ' ' + 'INR');
     this.dashboardPreData['name'] = this.contestants[5]['name']['firstName'];
-    this.dashboardPreData['weight'] = snehalTotal.toFixed(2);
+    this.dashboardPreData['holdingValue'] = snehalTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
     this.contestants[6]['currentHoldingValue'] = (manasiTotal.toFixed(2) + ' ' + 'INR');
     this.dashboardPreData['name'] = this.contestants[6]['name']['firstName'];
-    this.dashboardPreData['weight'] = manasiTotal.toFixed(2);
+    this.dashboardPreData['holdingValue'] = manasiTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
     this.contestants[7]['currentHoldingValue'] = (radhikaTotal.toFixed(2) + ' ' + 'INR');
     this.dashboardPreData['name'] = this.contestants[7]['name']['firstName'];
-    this.dashboardPreData['weight'] = radhikaTotal.toFixed(2);
+    this.dashboardPreData['holdingValue'] = radhikaTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
     this.contestants[8]['currentHoldingValue'] = (shrutiTotal.toFixed(2) + ' ' + 'INR');
     this.dashboardPreData['name'] = this.contestants[8]['name']['firstName'];
-    this.dashboardPreData['weight'] = shrutiTotal.toFixed(2);
+    this.dashboardPreData['holdingValue'] = shrutiTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
     this.contestants[9]['currentHoldingValue'] = (paramTotal.toFixed(2) + ' ' + 'INR');
     this.dashboardPreData['name'] = this.contestants[9]['name']['firstName'];
-    this.dashboardPreData['weight'] = paramTotal.toFixed(2);
+    this.dashboardPreData['holdingValue'] = paramTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
     this.contestants[10]['currentHoldingValue'] = (pratikTotal.toFixed(2) + ' ' + 'INR');
     this.dashboardPreData['name'] = this.contestants[10]['name']['firstName'];
-    this.dashboardPreData['weight'] = pratikTotal.toFixed(2);
+    this.dashboardPreData['holdingValue'] = pratikTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
     this.contestants[11]['currentHoldingValue'] = (tusharTotal.toFixed(2) + ' ' + 'INR');
     this.dashboardPreData['name'] = this.contestants[11]['name']['firstName'];
-    this.dashboardPreData['weight'] = tusharTotal.toFixed(2);
+    this.dashboardPreData['holdingValue'] = tusharTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
     this.contestants[12]['currentHoldingValue'] = (nehaTotal.toFixed(2) + ' ' + 'INR');
     this.dashboardPreData['name'] = this.contestants[12]['name']['firstName'];
-    this.dashboardPreData['weight'] = nehaTotal.toFixed(2);
+    this.dashboardPreData['holdingValue'] = nehaTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
     this.contestants[13]['currentHoldingValue'] = (siddhuTotal.toFixed(2) + ' ' + 'INR');
     this.dashboardPreData['name'] = this.contestants[13]['name']['firstName'];
-    this.dashboardPreData['weight'] = siddhuTotal.toFixed(2);
+    this.dashboardPreData['holdingValue'] = siddhuTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
     this.contestants[14]['currentHoldingValue'] = (poonamTotal.toFixed(2) + ' ' + 'INR');
     this.dashboardPreData['name'] = this.contestants[14]['name']['firstName'];
-    this.dashboardPreData['weight'] = poonamTotal.toFixed(2);
+    this.dashboardPreData['holdingValue'] = poonamTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
     let topOrder = [...this.dashboardPre];
 
     topOrder.sort(function (a, b) {
-      return b.weight - a.weight;
+      return b.holdingValue - a.holdingValue;
     });
 
     this.top_5_contestant = topOrder.splice(0, 5);
@@ -203,7 +206,7 @@ export class SattebaazStatsBoardComponent implements OnInit {
     let bottomOrder = [...this.dashboardPre];
 
     bottomOrder.sort(function (a, b) {
-      return a.weight - b.weight;
+      return a.holdingValue - b.holdingValue;
     });
 
     this.bottom_5_contestant = bottomOrder.splice(0, 5);

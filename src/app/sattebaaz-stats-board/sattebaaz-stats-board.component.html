@@ -23,9 +23,9 @@
                 <td mat-cell *matCellDef="let element"> {{element.name}} </td>
               </ng-container>
               <!-- Holding Value Column -->
-              <ng-container matColumnDef="weight">
+              <ng-container matColumnDef="holdingValue">
                 <th mat-header-cell *matHeaderCellDef> Holding Value </th>
-                <td mat-cell *matCellDef="let element"> {{element.weight}} INR </td>
+                <td mat-cell *matCellDef="let element"> {{element.holdingValue}} INR </td>
               </ng-container>
               <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
               <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
@@ -53,9 +53,9 @@
                 <td mat-cell *matCellDef="let element"> {{element.name}} </td>
               </ng-container>
               <!-- Holding Value Column -->
-              <ng-container matColumnDef="weight">
+              <ng-container matColumnDef="holdingValue">
                 <th mat-header-cell *matHeaderCellDef> Holding Value </th>
-                <td mat-cell *matCellDef="let element"> {{element.weight}} INR</td>
+                <td mat-cell *matCellDef="let element"> {{element.holdingValue}} INR</td>
               </ng-container>
               <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
               <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
