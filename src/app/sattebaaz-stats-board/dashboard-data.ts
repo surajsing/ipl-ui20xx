@@ -11,47 +11,47 @@ export class DashboardData {
 
     public topFiveContestant: PeriodicElements[] = [
         {
-            name: 'Kailash',
-            weight: '191.25 INR'
+            name: '',
+            weight: ''
         },
         {
-            name: 'Kalpesh',
-            weight: '179.58 INR'
+            name: '',
+            weight: ''
         },
         {
-            name: 'Suraj',
-            weight: '132.91 INR'
+            name: '',
+            weight: ''
         },
         {
-            name: 'Pratik',
-            weight: '70.92 INR'
+            name: '',
+            weight: ''
         },
         {
-            name: 'Radhika',
-            weight: '59.58 INR'
+            name: '',
+            weight: ''
         }
     ]
 
     public bottomFiveContestant: PeriodicElements[] = [
         {
-            name: 'Param',
-            weight: '-113.34 INR'
+            name: '',
+            weight: ''
         },
         {
-            name: 'Shruti',
-            weight: '-107.50 INR'
+            name: '',
+            weight: ''
         },
         {
-            name: 'Neeraj',
-            weight: '-107.00 INR'
+            name: '',
+            weight: ''
         },
         {
-            name: 'Tushar',
-            weight: '-105.75 INR'
+            name: '',
+            weight: ''
         },
         {
-            name: 'Neha',
-            weight: '-93.75 INR'
+            name: '',
+            weight: ''
         }
     ]
 
