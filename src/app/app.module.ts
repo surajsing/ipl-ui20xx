@@ -1,5 +1,4 @@
 import { OverallStatsData } from './sattebaaz-overall-stats/overall-stats-data';
-import { DashboardData } from './sattebaaz-stats-board/dashboard-data';
 import { ContestantData } from './sattebaaz-stats-board/contestent-data';
 import { MatchFixturesData } from './sattebaaz-stats-board/match-fixtures-data';
 import { BrowserModule } from '@angular/platform-browser';
@@ -54,7 +53,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   providers: [
     MatchFixturesData,
     ContestantData,
-    DashboardData,
     PredictionRuleBookData,
     OverallStatsData
   ],
