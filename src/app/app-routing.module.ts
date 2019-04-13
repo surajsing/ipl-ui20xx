@@ -5,12 +5,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {
-    path : 'overallStats',
-    component : SattebaazOverallStatsComponent
+    path: 'overallStats',
+    component: SattebaazOverallStatsComponent
   },
   {
-    path : '**',
-    component : SattebaazHomeComponent
+    path: '**',
+    component: SattebaazHomeComponent
   }
 ];
 

@@ -1147,7 +1147,7 @@ export class OverallStatsData {
                 {
                     name: 'Snehal',
                     bet: "NA",
-                    holdingValue: '-10.00'
+                    holdingValue: '0'
                 },
                 {
                     name: 'Manasi',
