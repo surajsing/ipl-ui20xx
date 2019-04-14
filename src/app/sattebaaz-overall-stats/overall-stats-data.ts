@@ -2372,6 +2372,174 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Match 29',
+                match: 'KKR vs CSK',
+                result: "Powerplay score KKR - 49 & CSK - 44"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "KKR -55 & CSK - 59",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "KKR - 56 & CSK - 62",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "KKR - 50 & CSK - 50",
+                    holdingValue: '30.00'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "KKR - 60 & CSK - 56",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
+        {
+            matchFixtures: {
+                sequence: 'Match 30',
+                match: 'SRH vs DC',
+                result: "Total Boundaries 28 - CNCL & Total Wickets 17"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "43 & 14",
+                    holdingValue: '10.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "50 & 10",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "46 & 11",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
 
     ]
 
