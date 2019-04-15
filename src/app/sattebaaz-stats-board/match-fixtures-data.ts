@@ -302,7 +302,7 @@ export class MatchFixturesData {
             sequence: 'Match 29',
             fixtures: 'KKR vs CSK',
             location: 'Kolkata',
-            bet: 'Bet - Total Wickets Post Powerplay & Match Winner',
+            bet: 'Bet - Individual Powerplay Scores',
             teamOne: 'KKR',
             teamTwo: 'CSK',
             date: new Date(2019, 3, 14),
@@ -312,11 +312,11 @@ export class MatchFixturesData {
             sequence: 'Match 30',
             fixtures: 'SRH vs DC',
             location: 'Hyderabad',
-            bet: "Bet - Total Boundaries & Scorers over 30",
+            bet: "Bet - Total Boundaries & Total Wickets",
             teamOne: 'SRH',
             teamTwo: 'DC',
             date: new Date(2019, 3, 14),
-            winner: 'NYD'
+            winner: 'DC'
         },
         {
             sequence: 'Match 31',
