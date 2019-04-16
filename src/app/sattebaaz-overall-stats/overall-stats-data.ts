@@ -2544,7 +2544,7 @@ export class OverallStatsData {
             matchFixtures: {
                 sequence: 'Match 31',
                 match: 'MI vs RCB',
-                result: "Match Winner 28 & Total Run 343"
+                result: "Match Winner MI & Total Run 343"
             },
             contestantStats: [
                 {
@@ -2621,6 +2621,90 @@ export class OverallStatsData {
                     name: 'Poonam',
                     bet: "RCB & 397",
                     holdingValue: '-10.00'
+                }
+            ]
+        },
+        {
+            matchFixtures: {
+                sequence: 'Match 32',
+                match: 'KXIP vs RR',
+                result: "Match Winner KXIP & Post PP Wicket 11"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "RR & 5",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "RR & 9",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "KXIP & 7",
+                    holdingValue: '-1.67'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "KXIP & 7",
+                    holdingValue: '-1.67'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "KXIP & 11",
+                    holdingValue: '48.33'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "KXIP & 10",
+                    holdingValue: '-1.67'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "KXIP & 7",
+                    holdingValue: '-1.67'
+                },
+                {
+                    name: 'Param',
+                    bet: "KXIP & 8",
+                    holdingValue: '-1.67'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "RR & 5",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "RR & 9",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
                 }
             ]
         },
