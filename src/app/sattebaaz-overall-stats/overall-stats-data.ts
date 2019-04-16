@@ -2540,6 +2540,90 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Match 31',
+                match: 'MI vs RCB',
+                result: "Match Winner 28 & Total Run 343"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "MI & 381",
+                    holdingValue: '-1.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "MI & 320",
+                    holdingValue: '44.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "RCB & 384",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "MI & 377",
+                    holdingValue: '-1.00'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "RCB & 373",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "MI & 368",
+                    holdingValue: '-1.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Param',
+                    bet: "MI & 390",
+                    holdingValue: '-1.00'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "RCB & 392",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "RCB & 397",
+                    holdingValue: '-10.00'
+                }
+            ]
+        },
 
     ]
 
