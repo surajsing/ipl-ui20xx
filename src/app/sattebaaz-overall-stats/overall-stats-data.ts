@@ -2708,6 +2708,90 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Match 33',
+                match: 'SRH vs CSK',
+                result: "Top Run Scorer - Bairstow"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "Rayudu",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "Bairstow",
+                    holdingValue: '30.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "Warner",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "Raina",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "Warner",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "DuPlesis",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "Bairstow",
+                    holdingValue: '30.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "Williamson",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "Watson",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "Watson",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "Watson",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "Bairstow",
+                    holdingValue: '30.00'
+                }
+            ]
+        },
 
     ]
 
