@@ -356,7 +356,7 @@ export class MatchFixturesData {
             teamOne: 'DC',
             teamTwo: 'MI',
             date: new Date(2019, 3, 18),
-            winner: 'NYD'
+            winner: 'MI'
         },
         {
             sequence: 'Match 35',

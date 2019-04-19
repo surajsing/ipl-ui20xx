@@ -2792,6 +2792,90 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Match 34',
+                match: 'DC vs MI',
+                result: "Total 4's - 22 and Total 6's - 10"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "40 & 20",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "33 & 13",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "35 & 15",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "27 & 16",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "30 & 13",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "22 & 9",
+                    holdingValue: '80.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "24 & 18",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "37 & 16",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "40 & 22",
+                    holdingValue: '-10.00'
+                }
+            ]
+        },
 
     ]
 
