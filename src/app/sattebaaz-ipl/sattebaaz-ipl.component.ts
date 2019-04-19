@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatSnackBar } from '@angular/material';
+import { SattebaazLastUpdateComponent } from '../sattebaaz-last-update/sattebaaz-last-update.component';
 
 @Component({
   selector: 'app-sattebaaz-ipl',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SattebaazIplComponent implements OnInit {
 
-  constructor() { }
+  constructor(private snackBar: MatSnackBar) { }
+
+  openLastUpdatedBar() {
+    setTimeout(() => {
+      this.snackBar.openFromComponent(SattebaazLastUpdateComponent,
+        { duration: 10000, panelClass: 'lastUpdated' });
+    });
+  }
 
   ngOnInit() {
+    this.openLastUpdatedBar();
   }
 
 }
