@@ -352,7 +352,7 @@ export class MatchFixturesData {
             sequence: 'Match 34',
             fixtures: 'DC vs MI',
             location: 'Delhi',
-            bet: "Bet - Total 4's and Total 6's",
+            bet: "Bet - Total 4's & Total 6's",
             teamOne: 'DC',
             teamTwo: 'MI',
             date: new Date(2019, 3, 18),
@@ -366,7 +366,7 @@ export class MatchFixturesData {
             teamOne: 'KKR',
             teamTwo: 'RCB',
             date: new Date(2019, 3, 19),
-            winner: 'NYD'
+            winner: 'RCB'
         },
         {
             sequence: 'Match 36',
@@ -392,7 +392,7 @@ export class MatchFixturesData {
             sequence: 'Match 38',
             fixtures: 'SRH vs KKR',
             location: 'Hyderabad',
-            bet: 'Bet - NYD',
+            bet: 'Bet - Total Run & Total Wicket',
             teamOne: 'SRH',
             teamTwo: 'KKR',
             date: new Date(2019, 3, 21),
@@ -402,7 +402,7 @@ export class MatchFixturesData {
             sequence: 'Match 39',
             fixtures: 'RCB vs CSK',
             location: 'Bengaluru',
-            bet: 'Bet - NYD',
+            bet: "Bet - Top Scorer - Batman & Bowler",
             teamOne: 'RCB',
             teamTwo: 'CSK',
             date: new Date(2019, 3, 21),

@@ -2796,7 +2796,7 @@ export class OverallStatsData {
             matchFixtures: {
                 sequence: 'Match 34',
                 match: 'DC vs MI',
-                result: "Total 4's - 23 and Total 6's - 10"
+                result: "Total 4's - 23 & Total 6's - 10"
             },
             contestantStats: [
                 {
@@ -2873,6 +2873,90 @@ export class OverallStatsData {
                     name: 'Poonam',
                     bet: "40 & 22",
                     holdingValue: '-10.00'
+                }
+            ]
+        },
+        {
+            matchFixtures: {
+                sequence: 'Match 35',
+                match: 'KKR vs RCB',
+                result: "Top Run Scorer - N Rana & Kohli"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "S Gill & Kohli",
+                    holdingValue: '-4.00'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "C Lynn & Kohli",
+                    holdingValue: '-4.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "N Rana & Kohli",
+                    holdingValue: '11.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "Utthappa & Moen",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "C Lynn & Kohli",
+                    holdingValue: '-4.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "N Rana & Kohli",
+                    holdingValue: '11.00'
                 }
             ]
         },
