@@ -17,11 +17,13 @@ import { MatListModule } from '@angular/material/list';
 import { MatTableModule } from '@angular/material/table';
 import { MatFormFieldModule, MatIconModule, MatDatepickerModule, MatNativeDateModule } from '@angular/material';
 import { MatInputModule } from '@angular/material';
+import { MatSnackBarModule } from '@angular/material';
 import { SattebaazStatsBoardComponent } from './sattebaaz-stats-board/sattebaaz-stats-board.component';
 import { SattebaazHomeComponent } from './sattebaaz-home/sattebaaz-home.component';
 import { SattebaazOverallStatsComponent } from './sattebaaz-overall-stats/sattebaaz-overall-stats.component';
 import { PredictionRuleBookData } from './sattebaaz-stats-board/prediction-rule-book-data';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SattebaazLastUpdateComponent } from './sattebaaz-last-update/sattebaaz-last-update.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +34,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     SattebaazStatsBoardComponent,
     SattebaazHomeComponent,
     SattebaazOverallStatsComponent,
+    SattebaazLastUpdateComponent,
   ],
   imports: [
     BrowserModule,
@@ -43,6 +46,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatTableModule,
     MatFormFieldModule,
     MatInputModule,
+    MatSnackBarModule,
     MatIconModule,
     MatDatepickerModule,
     MatNativeDateModule,
@@ -56,6 +60,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     PredictionRuleBookData,
     OverallStatsData
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [SattebaazLastUpdateComponent],
 })
 export class AppModule { }
