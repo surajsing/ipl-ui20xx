@@ -2796,7 +2796,7 @@ export class OverallStatsData {
             matchFixtures: {
                 sequence: 'Match 34',
                 match: 'DC vs MI',
-                result: "Total 4's - 22 and Total 6's - 10"
+                result: "Total 4's - 23 and Total 6's - 10"
             },
             contestantStats: [
                 {
@@ -2832,12 +2832,12 @@ export class OverallStatsData {
                 {
                     name: 'Manasi',
                     bet: "22 & 9",
-                    holdingValue: '80.00'
+                    holdingValue: '57.50'
                 },
                 {
                     name: 'Radhika',
                     bet: "24 & 18",
-                    holdingValue: '-10.00'
+                    holdingValue: '12.50'
                 },
                 {
                     name: 'Shruti',
