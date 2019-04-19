@@ -14,7 +14,7 @@ export class SattebaazIplComponent implements OnInit {
   openLastUpdatedBar() {
     setTimeout(() => {
       this.snackBar.openFromComponent(SattebaazLastUpdateComponent,
-        { duration: 10000, panelClass: 'lastUpdated' });
+        { duration: 2000, panelClass: 'lastUpdated' });
     });
   }
 
