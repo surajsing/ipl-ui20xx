@@ -42,65 +42,65 @@ export class SattebaazLoginComponent implements OnInit {
       localStorage.removeItem('username');
       let userName : string = this.fields.username.value;
       let setName = userName.toLowerCase();
-      console.log(setName);
+      let password : string = this.fields.password.value;
       switch (setName) {
-        case 'suraj': if (this.fields.password.value === 'singh') {
+        case 'suraj': if ((password.toLowerCase()) === 'singh') {
           this.setUsername(setName);
         } else this.resetForm();
           break
-        case 'kalpesh': if (this.fields.password.value === 'kalpesh') {
+        case 'kalpesh': if ((password.toLowerCase()) === 'kalpesh') {
           this.setUsername(setName);
         } else this.resetForm();
           break
-        case 'kailash': if (this.fields.password.value === 'kailash') {
+        case 'kailash': if ((password.toLowerCase()) === 'kailash') {
           this.setUsername(setName);
         } else this.resetForm();
           break
-        case 'neeraj': if (this.fields.password.value === 'neeraj') {
+        case 'neeraj': if ((password.toLowerCase()) === 'neeraj') {
           this.setUsername(setName);
         } else this.resetForm();
           break
-        case 'pooja': if (this.fields.password.value === 'pooja') {
+        case 'pooja': if ((password.toLowerCase()) === 'pooja') {
           this.setUsername(setName);
         } else this.resetForm();
           break
-        case 'snehal': if (this.fields.password.value === 'snehal') {
+        case 'snehal': if ((password.toLowerCase()) === 'snehal') {
           this.setUsername(setName);
         } else this.resetForm();
           break
-        case 'manasi': if (this.fields.password.value === 'manasi') {
+        case 'manasi': if ((password.toLowerCase()) === 'manasi') {
           this.setUsername(setName);
         } else this.resetForm();
           break
-        case 'radhika': if (this.fields.password.value === 'radhika') {
+        case 'radhika': if ((password.toLowerCase()) === 'radhika') {
           this.setUsername(setName);
         } else this.resetForm();
           break
-        case 'shruti': if (this.fields.password.value === 'shruti') {
+        case 'shruti': if ((password.toLowerCase()) === 'shruti') {
           this.setUsername(setName);
         } else this.resetForm();
           break
-        case 'param': if (this.fields.password.value === 'param') {
+        case 'param': if ((password.toLowerCase()) === 'param') {
           this.setUsername(setName);
         } else this.resetForm();
           break
-        case 'pratik': if (this.fields.password.value === 'pratik') {
+        case 'pratik': if ((password.toLowerCase()) === 'pratik') {
           this.setUsername(setName);
         } else this.resetForm();
           break
-        case 'tushar': if (this.fields.password.value === 'tushar') {
+        case 'tushar': if ((password.toLowerCase()) === 'tushar') {
           this.setUsername(setName);
         } else this.resetForm();
           break
-        case 'neha': if (this.fields.password.value === 'neha') {
+        case 'neha': if ((password.toLowerCase()) === 'neha') {
           this.setUsername(setName);
         } else this.resetForm();
           break
-        case 'siddhu': if (this.fields.password.value === 'siddhu') {
+        case 'siddhu': if ((password.toLowerCase()) === 'siddhu') {
           this.setUsername(setName);
         } else this.resetForm();
           break
-        case 'poonam': if (this.fields.password.value === 'poonam') {
+        case 'poonam': if ((password.toLowerCase()) === 'poonam') {
           this.setUsername(setName);
         } else this.resetForm();
           break
