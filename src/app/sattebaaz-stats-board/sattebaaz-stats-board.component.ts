@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material';
 import { MatDatepickerInputEvent } from '@angular/material/datepicker';
 import { OverallStatsData } from '../sattebaaz-overall-stats/overall-stats-data';
+import { SattebaazCacheService } from '../sattebaaz-services/sattebaaz-cache.service';
 
 export interface DashboardElements {
   name: string,
@@ -36,7 +37,8 @@ export class SattebaazStatsBoardComponent implements OnInit {
   constructor(match: MatchFixturesData,
     private contestant: ContestantData,
     ruleBook: PredictionRuleBookData,
-    statsData: OverallStatsData) {
+    statsData: OverallStatsData,
+    private cacheService : SattebaazCacheService) {
     this.matches = match.getMatchData();
     this.publishRules = ruleBook.getPublishRules();
     this.predictionRules = ruleBook.getPredictionRules();
@@ -194,6 +196,8 @@ export class SattebaazStatsBoardComponent implements OnInit {
     this.dashboardPreData['holdingValue'] = poonamTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
+
+    this.cacheService.setData(this.dashboardPre);
 
     let topOrder = [...this.dashboardPre];
 
