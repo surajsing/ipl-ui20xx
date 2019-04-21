@@ -1,3 +1,4 @@
+import { SattebaazLoginComponent } from './sattebaaz-login/sattebaaz-login.component';
 import { SattebaazOverallStatsComponent } from './sattebaaz-overall-stats/sattebaaz-overall-stats.component';
 import { SattebaazHomeComponent } from './sattebaaz-home/sattebaaz-home.component';
 import { NgModule } from '@angular/core';
@@ -9,8 +10,12 @@ const routes: Routes = [
     component: SattebaazOverallStatsComponent
   },
   {
-    path: '**',
+    path: 'sattebaaz-home',
     component: SattebaazHomeComponent
+  },
+  {
+    path: '**',
+    component: SattebaazLoginComponent
   }
 ];
 
