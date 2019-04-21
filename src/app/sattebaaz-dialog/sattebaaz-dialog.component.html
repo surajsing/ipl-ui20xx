@@ -1,12 +1,16 @@
 <!-- <h1 mat-dialog-title>Hi {{data.name}}</h1> -->
-<div class="dialogContatiner">
-  <h1 mat-dialog-title>Hi Suraj</h1>
+<div class="dialogContatiner" *ngIf="isUserLoggedIn()">
+  <h1 mat-dialog-title *ngIf="(data.name==undefined) || (data.name==null)">LOADING..</h1>
+  <h1 mat-dialog-title *ngIf="(data.name!=undefined) || (data.name!=null)">Hi {{data.name}}</h1>
   <div mat-dialog-content>
     <p>Your holding value is</p>
     <p>
       <strong>
-        <span style="font-size: larger; color: crimson;">
-          113.99 INR
+        <span style="font-size: larger; color: crimson;" *ngIf="(data.holdingValue==undefined) || (data.holdingValue==null)">
+            LOADING..
+        </span>
+        <span style="font-size: larger; color: crimson;" *ngIf="(data.holdingValue!=undefined) || (data.holdingValue!=null)">
+            {{data.holdingValue}} INR
         </span>
       </strong>
     </p>
@@ -19,4 +23,11 @@
   <!-- <button mat-button (click)="onNoClick()">Close Me</button> -->
   <!-- <button mat-button [mat-dialog-close]="data.holdingValue" cdkFocusInitial>Ok</button> -->
   <!-- </div> -->
+</div>
+<div class="dialogContatiner" *ngIf="!isUserLoggedIn()">
+  <h1 mat-dialog-title>Hey!</h1>
+    <div mat-dialog-content>
+      <p>Signin to see holding value</p>
+    </div>
+    <button mat-button (click)="onNoClick()" class="closeMe">Close</button>
 </div>

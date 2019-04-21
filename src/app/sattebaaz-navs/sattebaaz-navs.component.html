@@ -1,5 +1,6 @@
 <nav class="navbar fixed-top navbar-light bg-color">
-  <span class="navbar-brand mb-0 h1">Suraj S</span>
+  <span class="navbar-brand mb-0 h1" *ngIf="(name==undefined) || (name==null)">Loading..</span>
+  <span class="navbar-brand mb-0 h1" *ngIf="(name!=undefined) || (name!=null)">{{name}}</span>
   <!-- Always Keep Name with length 7 -->
   <a><mat-icon mat-list-icon (click)="openDialogBox()" class="accountBox">account_circle</mat-icon></a>
   <button class="btn btn-outline-color my-2 my-sm-0" (click)="logOut()">Sign Out</button>

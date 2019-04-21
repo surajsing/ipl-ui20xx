@@ -30,6 +30,7 @@ import { SattebaazNavsComponent } from './sattebaaz-navs/sattebaaz-navs.componen
 import { SattebaazDialogComponent } from './sattebaaz-dialog/sattebaaz-dialog.component';
 import { SattebaazErrorComponent } from './sattebaaz-error/sattebaaz-error.component';
 import { SattebaazOverallstatsNavComponent } from './sattebaaz-overallstats-nav/sattebaaz-overallstats-nav.component';
+import { LowercaseFormatDirective } from './sattebaaz-directives/lowercase-format.directive';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { SattebaazOverallstatsNavComponent } from './sattebaaz-overallstats-nav/
     SattebaazDialogComponent,
     SattebaazErrorComponent,
     SattebaazOverallstatsNavComponent,
+    LowercaseFormatDirective,
   ],
   imports: [
     BrowserModule,
