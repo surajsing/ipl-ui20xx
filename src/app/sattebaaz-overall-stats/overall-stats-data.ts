@@ -3128,6 +3128,174 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Match 38',
+                match: 'SRH vs KKR',
+                result: "Total Run 320 & Total Wicket 9"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "275 & 15",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "368 & 11",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "352 & 12",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "307 & 13",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "318 & 9",
+                    holdingValue: '70.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "290 & 11",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "363 & 11",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "330 & 10",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
+        {
+            matchFixtures: {
+                sequence: 'Match 39',
+                match: 'RCB vs CSK',
+                result: "Top Batman ABD & Bowler Jadeja"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "Kohli & Tahir",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "Raina & Tahir",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "DuPlesis & Chahal",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "ABD & Jadeja",
+                    holdingValue: '50.00'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "Kohli & Tahir",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "ABD & Tahir",
+                    holdingValue: '0.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "ABD & Tahir",
+                    holdingValue: '0.00'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "Watson & Chahal",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "ABD & Tahir",
+                    holdingValue: '0.00'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "ABD & Tahir",
+                    holdingValue: '0.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
 
     ]
 
