@@ -2960,6 +2960,174 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Match 36',
+                match: 'RR vs MI',
+                result: "Match Winner - RR & Total 6's - 9"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "MI & 10",
+                    holdingValue: '7.50'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "RR & 14",
+                    holdingValue: '1.67'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "MI & 13",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "MI & 10",
+                    holdingValue: '7.50'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "MI & 18",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "RR & 16",
+                    holdingValue: '1.67'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "RR & 17",
+                    holdingValue: '1.67'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
+        {
+            matchFixtures: {
+                sequence: 'Match 37',
+                match: 'DC vs KXIP',
+                result: "Top Wicket Taker- Lamichhane & Scorer>30 4"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "R Ashwin & 5",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "R Ashwin & 4",
+                    holdingValue: '-1.25'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "Rabada & 4",
+                    holdingValue: '-1.25'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "Rabada & 4",
+                    holdingValue: '-1.25'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "Amit & 5",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "Rabada & 4",
+                    holdingValue: '-1.25'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "Lamichhane & 5",
+                    holdingValue: '25.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
 
     ]
 

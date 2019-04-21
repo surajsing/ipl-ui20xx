@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { OverallStatsData, OverallStats } from './overall-stats-data';
 import { MatTableDataSource } from '@angular/material';
-import { Router } from '@angular/router';
 
 
 @Component({
@@ -13,7 +12,15 @@ export class SattebaazOverallStatsComponent implements OnInit {
 
   dataSource: MatTableDataSource<OverallStats>;
 
-  constructor(private overallStat: OverallStatsData, private router: Router) { }
+  constructor(private overallStat: OverallStatsData) { }
+
+  isUserLoggedIn(){
+    if(localStorage.getItem('username') && (localStorage.getItem('username')==='suraj')){
+      return true;
+    } else {
+      return false;
+    }
+  }
 
   displayedColumns: string[] = ['matchSequence', 'fixtures', 'results',
     'kalpeshBet', 'kalpeshHoldingValue',
@@ -34,9 +41,6 @@ export class SattebaazOverallStatsComponent implements OnInit {
 
   ngOnInit() {
     this.dataSource = new MatTableDataSource(this.overallStat.getOverallIPLStats());
-    setTimeout(() => {
-      this.router.navigate(['/']);
-    }, 300000);
   }
 
 }

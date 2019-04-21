@@ -1,0 +1,39 @@
+<app-sattebaaz-header></app-sattebaaz-header>
+<div class="loginPanel" *ngIf="!isUserAlreadyLoggedIn()">
+  <p style="font-size: 24px; font-weight: 300; letter-spacing: -.5px;">
+    Log in to IPL 2019 &#9786;
+  </p>
+  <div class="loginContainer">
+    <form [formGroup]="form" class="loginForm" (ngSubmit)="onSubmit()">
+
+      <div *ngIf="invalidLogin" class="alert alert-danger">
+        Invalid Username or Password
+      </div>
+
+      <label for="username" class="mandatory">Username</label>
+      <mat-form-field class="login-form-group">
+        <input matInput placeholder="Enter Username" formControlName="username" type="text" class="form-control">
+      </mat-form-field>
+
+      <label for="password" class="mandatory">Password</label>
+      <mat-form-field class="login-form-group">
+        <input matInput placeholder="Enter Password" formControlName="password" type="password" class="form-control">
+      </mat-form-field>
+
+      <button class="btn btn-primary" type="submit">Log in</button>
+
+    </form>
+  </div>
+</div>
+
+<div class="loggedInPage" *ngIf="isUserAlreadyLoggedIn()">
+  <div class="loggedInMessageContainer" style="font-size: 24px; font-weight: 300; letter-spacing: -.5px;">
+    Hey! You are already logged in. Go to
+    <strong>
+      <button class="btn btn-primary" routerLink="/sattebaaz-home">
+        HOME
+      </button>
+    </strong>
+  </div>
+</div>
+<app-sattebaaz-footer></app-sattebaaz-footer>

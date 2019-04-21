@@ -18,12 +18,18 @@ import { MatTableModule } from '@angular/material/table';
 import { MatFormFieldModule, MatIconModule, MatDatepickerModule, MatNativeDateModule } from '@angular/material';
 import { MatInputModule } from '@angular/material';
 import { MatSnackBarModule } from '@angular/material';
+import {MatDialogModule} from '@angular/material/dialog';
 import { SattebaazStatsBoardComponent } from './sattebaaz-stats-board/sattebaaz-stats-board.component';
 import { SattebaazHomeComponent } from './sattebaaz-home/sattebaaz-home.component';
 import { SattebaazOverallStatsComponent } from './sattebaaz-overall-stats/sattebaaz-overall-stats.component';
 import { PredictionRuleBookData } from './sattebaaz-stats-board/prediction-rule-book-data';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SattebaazLastUpdateComponent } from './sattebaaz-last-update/sattebaaz-last-update.component';
+import { SattebaazLoginComponent } from './sattebaaz-login/sattebaaz-login.component';
+import { SattebaazNavsComponent } from './sattebaaz-navs/sattebaaz-navs.component';
+import { SattebaazDialogComponent } from './sattebaaz-dialog/sattebaaz-dialog.component';
+import { SattebaazErrorComponent } from './sattebaaz-error/sattebaaz-error.component';
+import { SattebaazOverallstatsNavComponent } from './sattebaaz-overallstats-nav/sattebaaz-overallstats-nav.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +41,11 @@ import { SattebaazLastUpdateComponent } from './sattebaaz-last-update/sattebaaz-
     SattebaazHomeComponent,
     SattebaazOverallStatsComponent,
     SattebaazLastUpdateComponent,
+    SattebaazLoginComponent,
+    SattebaazNavsComponent,
+    SattebaazDialogComponent,
+    SattebaazErrorComponent,
+    SattebaazOverallstatsNavComponent,
   ],
   imports: [
     BrowserModule,
@@ -47,6 +58,7 @@ import { SattebaazLastUpdateComponent } from './sattebaaz-last-update/sattebaaz-
     MatFormFieldModule,
     MatInputModule,
     MatSnackBarModule,
+    MatDialogModule,
     MatIconModule,
     MatDatepickerModule,
     MatNativeDateModule,
@@ -61,6 +73,6 @@ import { SattebaazLastUpdateComponent } from './sattebaaz-last-update/sattebaaz-
     OverallStatsData
   ],
   bootstrap: [AppComponent],
-  entryComponents: [SattebaazLastUpdateComponent],
+  entryComponents: [SattebaazLastUpdateComponent,SattebaazDialogComponent],
 })
 export class AppModule { }
