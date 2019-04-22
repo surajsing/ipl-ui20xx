@@ -1,9 +1,35 @@
 <nav class="navbar fixed-top navbar-light bg-color">
-  <span class="navbar-brand mb-0 h1" *ngIf="(name==undefined) || (name==null)">Loading..</span>
-  <span class="navbar-brand mb-0 h1" *ngIf="(name!=undefined) || (name!=null)"><strong>{{name}}</strong></span>
+    <span class="navbar-brand mb-0 h1" *ngIf="(name==undefined) || (name==null)">
+        <strong
+        style="font-size: larger;letter-spacing: -1.5px;">
+      <div class="spinner-border text-primary" role="status" style="width:1px;">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-border text-secondary" role="status" style="width:2px;">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-border text-success" role="status" style="width:3px;">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-border text-danger" role="status" style="width:4px;">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-border text-warning" role="status" style="width:5px;">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-border text-info" role="status" style="width:6px;">
+        <span class="sr-only">Loading...</span>
+      </div>
+      </strong>
+    </span>
+    <span class="navbar-brand mb-0 h1" *ngIf="(name!=undefined) || (name!=null)">
+        <strong style="font-size: larger;letter-spacing: -1.5px;">
+          {{name}}
+        </strong>
+      </span>
   <!-- Always Keep Name with length 7 -->
   <a>
-    <mat-icon mat-list-icon routerLink="/sattebaaz-home" class="homeBox">home</mat-icon>
+    <mat-icon mat-list-icon routerLink="/sattebaaz-home" class="homeBox" *ngIf="(name!=undefined) || (name!=null)">home</mat-icon>
   </a>
   <button class="btn btn-outline-color my-2 my-sm-0" (click)="logOut()">Sign Out</button>
 </nav>
