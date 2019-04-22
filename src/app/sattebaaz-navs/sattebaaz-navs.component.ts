@@ -13,86 +13,89 @@ export class SattebaazNavsComponent implements OnInit {
 
   name : string;
   holdingValue : string;
+  dialogOpened : boolean = false;
 
   constructor(public dialog: MatDialog, private router: Router, private cacheService : SattebaazCacheService) { }
 
   getDialogData(){
     setTimeout(() => {
       let allData = this.cacheService.getData();
-      if(localStorage.getItem('username')){
+      if((localStorage.getItem('loginToken'))!=null){
+        let token = localStorage.getItem('loginToken');
+        let userName : string = atob(token);
         allData.forEach(element => {
           switch(element['name']){
-             case 'Suraj' : if(localStorage.getItem('username')==='suraj'){
+             case 'Suraj' : if(userName==='suraj'){
               this.name = 'Suraj  ';
               this.holdingValue = element['holdingValue'];
              }
              break
-             case 'Kailash' : if(localStorage.getItem('username')==='kailash'){
+             case 'Kailash' : if(userName==='kailash'){
               this.name = 'Kailash';
               this.holdingValue = element['holdingValue'];
              }
              break
-             case 'Kalpesh' : if(localStorage.getItem('username')==='kalpesh'){
+             case 'Kalpesh' : if(userName==='kalpesh'){
               this.name = 'Kalpesh';
               this.holdingValue = element['holdingValue'];
              }
              break
-             case 'Neeraj' : if(localStorage.getItem('username')==='neeraj'){
+             case 'Neeraj' : if(userName==='neeraj'){
               this.name = 'Neeraj ';
               this.holdingValue = element['holdingValue'];
              }
              break
-             case 'Pooja' : if(localStorage.getItem('username')==='pooja'){
+             case 'Pooja' : if(userName==='pooja'){
               this.name = 'Pooja  ';
               this.holdingValue = element['holdingValue'];
              }
              break
-             case 'Snehal' : if(localStorage.getItem('username')==='snehal'){
+             case 'Snehal' : if(userName==='snehal'){
               this.name = 'Snehal ';
               this.holdingValue = element['holdingValue'];
              }
              break
-             case 'Manasi' : if(localStorage.getItem('username')==='manasi'){
+             case 'Manasi' : if(userName==='manasi'){
               this.name = 'Manasi ';
               this.holdingValue = element['holdingValue'];
              }
              break
-             case 'Radhika' : if(localStorage.getItem('username')==='radhika'){
+             case 'Radhika' : if(userName==='radhika'){
               this.name = 'Radhika';
               this.holdingValue = element['holdingValue'];
              }
              break
-             case 'Shruti' : if(localStorage.getItem('username')==='shruti'){
+             case 'Shruti' : if(userName==='shruti'){
               this.name = 'Shruti ';
               this.holdingValue = element['holdingValue'];
              }
              break
-             case 'Param' : if(localStorage.getItem('username')==='param'){
+             case 'Param' : if(userName==='param'){
               this.name = 'Param  ';
               this.holdingValue = element['holdingValue'];
              }
              break
-             case 'Pratik' : if(localStorage.getItem('username')==='pratik'){
+             case 'Pratik' : if(userName==='pratik'){
               this.name = 'Pratik ';
               this.holdingValue = element['holdingValue'];
              }
              break
-             case 'Tushar' : if(localStorage.getItem('username')==='tushar'){
+             case 'Tushar' : if(userName==='tushar'){
               this.name = 'Tushar ';
               this.holdingValue = element['holdingValue'];
              }
              break
-             case 'Neha' : if(localStorage.getItem('username')==='neha'){
+             case 'Neha' : if(userName==='neha'){
               this.name = 'Neha   ';
               this.holdingValue = element['holdingValue'];
              }
              break
-             case 'Siddhu' : if(localStorage.getItem('username')==='siddhu'){
+             case 'Siddhu' : if(userName==='siddhu'){
               this.name = 'Siddhu ';
               this.holdingValue = element['holdingValue'];
              }
              break
-             case 'Poonam' : if(localStorage.getItem('username')==='poonam'){
+             case 'Poonam' : if(userName==='poonam'){
               this.name = 'Poonam ';
               this.holdingValue = element['holdingValue'];
              }
@@ -109,10 +112,19 @@ export class SattebaazNavsComponent implements OnInit {
       width: '250px',
       data: {name: this.name, holdingValue: this.holdingValue}
     });
+
+    dialogRef.afterOpened().subscribe(() => {
+      this.dialogOpened = true;
+    });
+
+    dialogRef.afterClosed().subscribe(() => {
+      this.dialogOpened = false;
+    });
+
   }
 
   logOut(){
-    localStorage.removeItem('username');
+    localStorage.removeItem('loginToken');
     this.router.navigate(['/']);
   }
 

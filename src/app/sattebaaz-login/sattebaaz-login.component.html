@@ -28,7 +28,8 @@
 
 <div class="loggedInPage" *ngIf="isUserAlreadyLoggedIn()">
   <div class="loggedInMessageContainer" style="font-size: 24px; font-weight: 300; letter-spacing: -.5px;">
-    Hey! You are already logged in. Go to
+    Hey! <strong style="font-size: larger; color: crimson;">{{user}}</strong>
+    <br> You are already logged in. <br> &#9786; <br>
     <strong>
       <button class="btn btn-primary" routerLink="/sattebaaz-home">
         HOME

@@ -15,9 +15,10 @@ export class SattebaazOverallstatsNavComponent implements OnInit {
 
   getLoggedInUser() {
     setTimeout(() => {
-      let username = localStorage.getItem('username');
-      if (username != null) {
-        switch (username) {
+      if ((localStorage.getItem('loginToken'))!=null) {
+        let token = localStorage.getItem('loginToken');
+        let userName : string = atob(token);
+        switch (userName) {
           case 'suraj': this.name = 'Suraj  ';
             break
             case 'kailash': this.name = 'Kailash';
@@ -55,7 +56,7 @@ export class SattebaazOverallstatsNavComponent implements OnInit {
   }
 
   logOut() {
-    localStorage.removeItem('username');
+    localStorage.removeItem('loginToken');
     this.router.navigate(['/']);
   }
 
