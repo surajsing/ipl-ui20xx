@@ -6,11 +6,13 @@
     <p>Your holding value is</p>
     <p>
       <strong>
-        <span style="font-size: larger; color: crimson;" *ngIf="(data.holdingValue==undefined) || (data.holdingValue==null)">
-            LOADING..
+        <span style="font-size: larger; color: crimson;"
+          *ngIf="(data.holdingValue==undefined) || (data.holdingValue==null)">
+          LOADING..
         </span>
-        <span style="font-size: larger; color: crimson;" *ngIf="(data.holdingValue!=undefined) || (data.holdingValue!=null)">
-            {{data.holdingValue}} INR
+        <span style="font-size: larger; color: crimson;"
+          *ngIf="(data.holdingValue!=undefined) || (data.holdingValue!=null)">
+          {{data.holdingValue}} INR
         </span>
       </strong>
     </p>
@@ -26,8 +28,8 @@
 </div>
 <div class="dialogContatiner" *ngIf="!isUserLoggedIn()">
   <h1 mat-dialog-title>Hey!</h1>
-    <div mat-dialog-content>
-      <p>Signin to see holding value</p>
-    </div>
-    <button mat-button (click)="onNoClick()" class="closeMe">Close</button>
+  <div mat-dialog-content>
+    <p>Sign-in to see holding value</p>
+  </div>
+  <button mat-button (click)="onNoClick()" class="closeMe">Close</button>
 </div>

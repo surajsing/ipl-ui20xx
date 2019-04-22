@@ -9,9 +9,9 @@ export class LowercaseFormatDirective {
   constructor(private el: ElementRef) { }
 
   @HostListener('keyup')
-  onkeypress(){
-    let val:string= this.el.nativeElement.value;
-      this.el.nativeElement.value = val.toLowerCase();
+  onkeypress() {
+    let val: string = this.el.nativeElement.value;
+    this.el.nativeElement.value = val.toLowerCase();
   }
 
 }

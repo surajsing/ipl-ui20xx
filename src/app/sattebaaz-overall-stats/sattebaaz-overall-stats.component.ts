@@ -15,22 +15,24 @@ export class SattebaazOverallStatsComponent implements OnInit {
   constructor(private overallStat: OverallStatsData) { }
 
   isUserLoggedIn() {
-    if (localStorage.getItem('username')) {
-      if ((localStorage.getItem('username') === 'suraj') ||
-        (localStorage.getItem('username') === 'kailash') ||
-        (localStorage.getItem('username') === 'kalpesh') ||
-        (localStorage.getItem('username') === 'neeraj') ||
-        (localStorage.getItem('username') === 'pooja') ||
-        (localStorage.getItem('username') === 'manasi') ||
-        (localStorage.getItem('username') === 'radhika') ||
-        (localStorage.getItem('username') === 'snehal') ||
-        (localStorage.getItem('username') === 'pratik') ||
-        (localStorage.getItem('username') === 'siddhu') ||
-        (localStorage.getItem('username') === 'tushar') ||
-        (localStorage.getItem('username') === 'neha') ||
-        (localStorage.getItem('username') === 'param') ||
-        (localStorage.getItem('username') === 'poonam') ||
-        (localStorage.getItem('username') === 'shruti')) {
+    if ((localStorage.getItem('loginToken')) != null) {
+      let token = localStorage.getItem('loginToken');
+      let userName: string = atob(token);
+      if ((userName === 'suraj') ||
+        (userName === 'kailash') ||
+        (userName === 'kalpesh') ||
+        (userName === 'neeraj') ||
+        (userName === 'pooja') ||
+        (userName === 'manasi') ||
+        (userName === 'radhika') ||
+        (userName === 'snehal') ||
+        (userName === 'pratik') ||
+        (userName === 'siddhu') ||
+        (userName === 'tushar') ||
+        (userName === 'neha') ||
+        (userName === 'param') ||
+        (userName === 'poonam') ||
+        (userName === 'shruti')) {
         return true;
       }
     } else {
