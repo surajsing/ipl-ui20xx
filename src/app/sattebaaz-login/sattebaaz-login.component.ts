@@ -15,7 +15,7 @@ export class SattebaazLoginComponent implements OnInit {
   });
 
   invalidLogin = false;
-  user : string;
+  user: string;
 
   constructor(private router: Router) { }
 
@@ -23,7 +23,7 @@ export class SattebaazLoginComponent implements OnInit {
     return this.form.controls;
   }
 
-  setUsername(loginUser : string) {
+  setUsername(loginUser: string) {
     let token = btoa(loginUser);
     localStorage.setItem('loginToken', token);
     this.router.navigate(['/sattebaaz-home']);
@@ -42,9 +42,9 @@ export class SattebaazLoginComponent implements OnInit {
   onSubmit() {
     if (!this.fields.username.errors && this.fields.username.value) {
       localStorage.removeItem('loginToken');
-      let userName : string = this.fields.username.value;
+      let userName: string = this.fields.username.value;
       let setName = userName.toLowerCase();
-      let password : string = this.fields.password.value;
+      let password: string = this.fields.password.value;
       switch (setName) {
         case 'suraj': if ((password.toLowerCase()) === 'singh') {
           this.setUsername(setName);
@@ -114,27 +114,27 @@ export class SattebaazLoginComponent implements OnInit {
   }
 
   isUserAlreadyLoggedIn() {
-    if ((localStorage.getItem('loginToken'))!=null) {
+    if ((localStorage.getItem('loginToken')) != null) {
       let token = localStorage.getItem('loginToken');
-      let userName : string = atob(token);
+      let userName: string = atob(token);
       if ((userName === 'suraj') ||
-          (userName === 'kailash') ||
-          (userName === 'kalpesh') ||
-          (userName === 'neeraj') ||
-          (userName === 'pooja') ||
-          (userName === 'manasi') ||
-          (userName === 'radhika') ||
-          (userName === 'snehal') ||
-          (userName === 'pratik') ||
-          (userName === 'siddhu') ||
-          (userName === 'tushar') ||
-          (userName === 'neha') ||
-          (userName === 'param') ||
-          (userName === 'poonam') ||
-          (userName === 'shruti')) {
-            this.user = userName.toUpperCase();
-          return true;
-        }
+        (userName === 'kailash') ||
+        (userName === 'kalpesh') ||
+        (userName === 'neeraj') ||
+        (userName === 'pooja') ||
+        (userName === 'manasi') ||
+        (userName === 'radhika') ||
+        (userName === 'snehal') ||
+        (userName === 'pratik') ||
+        (userName === 'siddhu') ||
+        (userName === 'tushar') ||
+        (userName === 'neha') ||
+        (userName === 'param') ||
+        (userName === 'poonam') ||
+        (userName === 'shruti')) {
+        this.user = userName.toUpperCase();
+        return true;
+      }
     } else {
       return false;
     }

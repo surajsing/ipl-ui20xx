@@ -15,39 +15,39 @@ export class SattebaazOverallstatsNavComponent implements OnInit {
 
   getLoggedInUser() {
     setTimeout(() => {
-      if ((localStorage.getItem('loginToken'))!=null) {
+      if ((localStorage.getItem('loginToken')) != null) {
         let token = localStorage.getItem('loginToken');
-        let userName : string = atob(token);
+        let userName: string = atob(token);
         switch (userName) {
           case 'suraj': this.name = 'Suraj  ';
             break
-            case 'kailash': this.name = 'Kailash';
+          case 'kailash': this.name = 'Kailash';
             break
-            case 'kalpesh': this.name = 'Kalpesh';
+          case 'kalpesh': this.name = 'Kalpesh';
             break
-            case 'neeraj': this.name = 'Neeraj ';
+          case 'neeraj': this.name = 'Neeraj ';
             break
-            case 'manasi': this.name = 'Manasi ';
+          case 'manasi': this.name = 'Manasi ';
             break
-            case 'siddhu': this.name = 'Siddhu ';
+          case 'siddhu': this.name = 'Siddhu ';
             break
-            case 'pooja': this.name = 'Pooja  ';
+          case 'pooja': this.name = 'Pooja  ';
             break
-            case 'radhika': this.name = 'Radhika';
+          case 'radhika': this.name = 'Radhika';
             break
-            case 'snehal': this.name = 'Snehal ';
+          case 'snehal': this.name = 'Snehal ';
             break
-            case 'pratik': this.name = 'Pratik ';
+          case 'pratik': this.name = 'Pratik ';
             break
-            case 'neha': this.name = 'Neha   ';
+          case 'neha': this.name = 'Neha   ';
             break
-            case 'param': this.name = 'Param  ';
+          case 'param': this.name = 'Param  ';
             break
-            case 'tushar': this.name = 'Tushar ';
+          case 'tushar': this.name = 'Tushar ';
             break
-            case 'poonam': this.name = 'Poonam ';
+          case 'poonam': this.name = 'Poonam ';
             break
-            case 'shruti': this.name = 'Shruti ';
+          case 'shruti': this.name = 'Shruti ';
             break
         }
       }

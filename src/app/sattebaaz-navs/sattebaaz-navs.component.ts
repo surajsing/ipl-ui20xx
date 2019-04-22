@@ -1,7 +1,7 @@
 import { SattebaazDialogComponent } from './../sattebaaz-dialog/sattebaaz-dialog.component';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
+import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 import { SattebaazCacheService } from '../sattebaaz-services/sattebaaz-cache.service';
 
 @Component({
@@ -11,95 +11,95 @@ import { SattebaazCacheService } from '../sattebaaz-services/sattebaaz-cache.ser
 })
 export class SattebaazNavsComponent implements OnInit {
 
-  name : string;
-  holdingValue : string;
-  dialogOpened : boolean = false;
+  name: string;
+  holdingValue: string;
+  dialogOpened: boolean = false;
 
-  constructor(public dialog: MatDialog, private router: Router, private cacheService : SattebaazCacheService) { }
+  constructor(public dialog: MatDialog, private router: Router, private cacheService: SattebaazCacheService) { }
 
-  getDialogData(){
+  getDialogData() {
     setTimeout(() => {
       let allData = this.cacheService.getData();
-      if((localStorage.getItem('loginToken'))!=null){
+      if ((localStorage.getItem('loginToken')) != null) {
         let token = localStorage.getItem('loginToken');
-        let userName : string = atob(token);
+        let userName: string = atob(token);
         allData.forEach(element => {
-          switch(element['name']){
-             case 'Suraj' : if(userName==='suraj'){
+          switch (element['name']) {
+            case 'Suraj': if (userName === 'suraj') {
               this.name = 'Suraj  ';
               this.holdingValue = element['holdingValue'];
-             }
-             break
-             case 'Kailash' : if(userName==='kailash'){
+            }
+              break
+            case 'Kailash': if (userName === 'kailash') {
               this.name = 'Kailash';
               this.holdingValue = element['holdingValue'];
-             }
-             break
-             case 'Kalpesh' : if(userName==='kalpesh'){
+            }
+              break
+            case 'Kalpesh': if (userName === 'kalpesh') {
               this.name = 'Kalpesh';
               this.holdingValue = element['holdingValue'];
-             }
-             break
-             case 'Neeraj' : if(userName==='neeraj'){
+            }
+              break
+            case 'Neeraj': if (userName === 'neeraj') {
               this.name = 'Neeraj ';
               this.holdingValue = element['holdingValue'];
-             }
-             break
-             case 'Pooja' : if(userName==='pooja'){
+            }
+              break
+            case 'Pooja': if (userName === 'pooja') {
               this.name = 'Pooja  ';
               this.holdingValue = element['holdingValue'];
-             }
-             break
-             case 'Snehal' : if(userName==='snehal'){
+            }
+              break
+            case 'Snehal': if (userName === 'snehal') {
               this.name = 'Snehal ';
               this.holdingValue = element['holdingValue'];
-             }
-             break
-             case 'Manasi' : if(userName==='manasi'){
+            }
+              break
+            case 'Manasi': if (userName === 'manasi') {
               this.name = 'Manasi ';
               this.holdingValue = element['holdingValue'];
-             }
-             break
-             case 'Radhika' : if(userName==='radhika'){
+            }
+              break
+            case 'Radhika': if (userName === 'radhika') {
               this.name = 'Radhika';
               this.holdingValue = element['holdingValue'];
-             }
-             break
-             case 'Shruti' : if(userName==='shruti'){
+            }
+              break
+            case 'Shruti': if (userName === 'shruti') {
               this.name = 'Shruti ';
               this.holdingValue = element['holdingValue'];
-             }
-             break
-             case 'Param' : if(userName==='param'){
+            }
+              break
+            case 'Param': if (userName === 'param') {
               this.name = 'Param  ';
               this.holdingValue = element['holdingValue'];
-             }
-             break
-             case 'Pratik' : if(userName==='pratik'){
+            }
+              break
+            case 'Pratik': if (userName === 'pratik') {
               this.name = 'Pratik ';
               this.holdingValue = element['holdingValue'];
-             }
-             break
-             case 'Tushar' : if(userName==='tushar'){
+            }
+              break
+            case 'Tushar': if (userName === 'tushar') {
               this.name = 'Tushar ';
               this.holdingValue = element['holdingValue'];
-             }
-             break
-             case 'Neha' : if(userName==='neha'){
+            }
+              break
+            case 'Neha': if (userName === 'neha') {
               this.name = 'Neha   ';
               this.holdingValue = element['holdingValue'];
-             }
-             break
-             case 'Siddhu' : if(userName==='siddhu'){
+            }
+              break
+            case 'Siddhu': if (userName === 'siddhu') {
               this.name = 'Siddhu ';
               this.holdingValue = element['holdingValue'];
-             }
-             break
-             case 'Poonam' : if(userName==='poonam'){
+            }
+              break
+            case 'Poonam': if (userName === 'poonam') {
               this.name = 'Poonam ';
               this.holdingValue = element['holdingValue'];
-             }
-             break
+            }
+              break
           }
         });
 
@@ -107,10 +107,10 @@ export class SattebaazNavsComponent implements OnInit {
     }, 2000);
   }
 
-  openDialogBox() : void{
+  openDialogBox(): void {
     const dialogRef = this.dialog.open(SattebaazDialogComponent, {
       width: '250px',
-      data: {name: this.name, holdingValue: this.holdingValue}
+      data: { name: this.name, holdingValue: this.holdingValue }
     });
 
     dialogRef.afterOpened().subscribe(() => {
@@ -123,7 +123,7 @@ export class SattebaazNavsComponent implements OnInit {
 
   }
 
-  logOut(){
+  logOut() {
     localStorage.removeItem('loginToken');
     this.router.navigate(['/']);
   }

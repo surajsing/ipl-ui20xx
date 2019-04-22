@@ -13,7 +13,7 @@ export class SattebaazCacheService {
     this.cachedData = anyData;
   }
 
-  getData(){
+  getData() {
     return this.cachedData;
   }
 

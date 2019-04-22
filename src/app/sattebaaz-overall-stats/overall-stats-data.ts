@@ -3296,6 +3296,90 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Match 40',
+                match: 'RR vs DC',
+                result: "Match Winner DC & Total Catch 6"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "DC & 9",
+                    holdingValue: '1.25'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "DC & 7",
+                    holdingValue: '1.25'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "RR & 7",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "RR & 7",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "DC & 12",
+                    holdingValue: '1.25'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "DC & 6",
+                    holdingValue: '23.75'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "RR & 7",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "RR & 6",
+                    holdingValue: '12.50'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "RR & 8",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
 
     ]
 
