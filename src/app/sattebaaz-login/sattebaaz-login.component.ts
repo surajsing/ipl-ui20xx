@@ -25,7 +25,7 @@ export class SattebaazLoginComponent implements OnInit {
 
   setUsername(loginUser: string) {
     let token = btoa(loginUser);
-    localStorage.setItem('loginToken', token);
+    sessionStorage.setItem('loginToken', token);
     this.router.navigate(['/sattebaaz-home']);
   }
 
@@ -41,7 +41,8 @@ export class SattebaazLoginComponent implements OnInit {
 
   onSubmit() {
     if (!this.fields.username.errors && this.fields.username.value) {
-      localStorage.removeItem('loginToken');
+      localStorage.clear();
+      sessionStorage.clear();
       let userName: string = this.fields.username.value;
       let setName = userName.toLowerCase();
       let password: string = this.fields.password.value;
@@ -114,8 +115,8 @@ export class SattebaazLoginComponent implements OnInit {
   }
 
   isUserAlreadyLoggedIn() {
-    if ((localStorage.getItem('loginToken')) != null) {
-      let token = localStorage.getItem('loginToken');
+    if ((sessionStorage.getItem('loginToken')) != null) {
+      let token = sessionStorage.getItem('loginToken');
       let userName: string = atob(token);
       if ((userName === 'suraj') ||
         (userName === 'kailash') ||

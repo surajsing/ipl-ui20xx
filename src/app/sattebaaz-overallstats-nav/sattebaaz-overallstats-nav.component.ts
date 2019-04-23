@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { SattebaazCacheService } from '../sattebaaz-services/sattebaaz-cache.service';
 
 @Component({
   selector: 'app-sattebaaz-overallstats-nav',
@@ -15,8 +14,8 @@ export class SattebaazOverallstatsNavComponent implements OnInit {
 
   getLoggedInUser() {
     setTimeout(() => {
-      if ((localStorage.getItem('loginToken')) != null) {
-        let token = localStorage.getItem('loginToken');
+      if ((sessionStorage.getItem('loginToken')) != null) {
+        let token = sessionStorage.getItem('loginToken');
         let userName: string = atob(token);
         switch (userName) {
           case 'suraj': this.name = 'Suraj  ';
@@ -56,7 +55,7 @@ export class SattebaazOverallstatsNavComponent implements OnInit {
   }
 
   logOut() {
-    localStorage.removeItem('loginToken');
+    sessionStorage.removeItem('loginToken');
     this.router.navigate(['/']);
   }
 

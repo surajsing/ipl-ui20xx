@@ -10,8 +10,8 @@ export class SattebaazHomeComponent implements OnInit {
   constructor() { }
 
   isUserLoggedIn() {
-    if ((localStorage.getItem('loginToken')) != null) {
-      let token = localStorage.getItem('loginToken');
+    if ((sessionStorage.getItem('loginToken')) != null) {
+      let token = sessionStorage.getItem('loginToken');
       let userName: string = atob(token);
       if ((userName === 'suraj') ||
         (userName === 'kailash') ||
