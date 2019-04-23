@@ -17,8 +17,8 @@ export class SattebaazDialogComponent implements OnInit {
     @Inject(MAT_DIALOG_DATA) public data: DialogData) { }
 
   isUserLoggedIn() {
-    if ((localStorage.getItem('loginToken')) != null) {
-      let token = localStorage.getItem('loginToken');
+    if ((sessionStorage.getItem('loginToken')) != null) {
+      let token = sessionStorage.getItem('loginToken');
       let userName: string = atob(token);
       if ((userName === 'suraj') ||
         (userName === 'kailash') ||

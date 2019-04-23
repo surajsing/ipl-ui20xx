@@ -20,8 +20,8 @@ export class SattebaazNavsComponent implements OnInit {
   getDialogData() {
     setTimeout(() => {
       let allData = this.cacheService.getData();
-      if ((localStorage.getItem('loginToken')) != null) {
-        let token = localStorage.getItem('loginToken');
+      if ((sessionStorage.getItem('loginToken')) != null) {
+        let token = sessionStorage.getItem('loginToken');
         let userName: string = atob(token);
         allData.forEach(element => {
           switch (element['name']) {
@@ -124,7 +124,7 @@ export class SattebaazNavsComponent implements OnInit {
   }
 
   logOut() {
-    localStorage.removeItem('loginToken');
+    sessionStorage.removeItem('loginToken');
     this.router.navigate(['/']);
   }
 
