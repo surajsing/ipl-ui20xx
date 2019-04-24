@@ -3380,6 +3380,90 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Match 41',
+                match: 'CSK vs SRH',
+                result: "Total PP Score 103 & Wickets 7"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "88 & 14",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "97 & 11",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "98 & 9",
+                    holdingValue: '10.00'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "103 & 9",
+                    holdingValue: '50.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "90 & 13",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "78 & 10",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "85 & 11",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "85 & 13",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
 
     ]
 
