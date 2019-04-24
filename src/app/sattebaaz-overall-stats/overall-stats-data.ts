@@ -3464,6 +3464,90 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Match 42',
+                match: 'RCB vs KXIP',
+                result: "Post PP Runs 249 & Total Boundaries 55"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "200 & 50",
+                    holdingValue: '6.67'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "251 & 47",
+                    holdingValue: '40.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "223 & 48",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "263 & 83",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "268 & 46",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "260 & 38",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "280 & 50",
+                    holdingValue: '6.67'
+                },
+                {
+                    name: 'Param',
+                    bet: "240 & 45",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "210 & 41",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "270 & 60",
+                    holdingValue: '6.67'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
 
     ]
 
