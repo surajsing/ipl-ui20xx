@@ -3548,6 +3548,90 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Match 43',
+                match: 'KKR vs RR',
+                result: "Top Scorer Rana & Rahane"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "S Gill & Rahane",
+                    holdingValue: '30.00'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "Russell & Sanju",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "Lynn & Smith",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "Russell & Smith",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "Russell & Smith",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "Lynn & Sanju",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "Rana & Sanju",
+                    holdingValue: '10.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "Rana & Smith",
+                    holdingValue: '10.00'
+                }
+            ]
+        },
 
     ]
 
