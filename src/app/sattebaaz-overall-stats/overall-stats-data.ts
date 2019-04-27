@@ -3720,28 +3720,28 @@ export class OverallStatsData {
             matchFixtures: {
                 sequence: 'Match 45',
                 match: 'RR vs SRH',
-                result: "Highest Wicket Taker & Total Run"
+                result: "Top Wicket Taker - Unadkat & Total Run 321"
             },
             contestantStats: [
                 {
                     name: 'Kalpesh',
                     bet: "Unadkat & 350",
-                    holdingValue: '0.00'
+                    holdingValue: '15.00'
                 },
                 {
                     name: 'Kailash',
                     bet: "Bhuvaneshwar & 333",
-                    holdingValue: '0.00'
+                    holdingValue: '-10.00'
                 },
                 {
                     name: 'Suraj',
                     bet: "Bhuvaneshwar & 307",
-                    holdingValue: '0.00'
+                    holdingValue: '-10.00'
                 },
                 {
                     name: 'Neeraj',
                     bet: "Unadkat & 355",
-                    holdingValue: '0.00'
+                    holdingValue: '15.00'
                 },
                 {
                     name: 'Pooja',
@@ -3756,27 +3756,27 @@ export class OverallStatsData {
                 {
                     name: 'Manasi',
                     bet: "Gopal & 318",
-                    holdingValue: '0.00'
+                    holdingValue: '40.00'
                 },
                 {
                     name: 'Radhika',
                     bet: "Rashid & 276",
-                    holdingValue: '0.00'
+                    holdingValue: '-10.00'
                 },
                 {
                     name: 'Shruti',
                     bet: "Rashid & 315",
-                    holdingValue: '0.00'
+                    holdingValue: '-10.00'
                 },
                 {
                     name: 'Param',
                     bet: "Bhuvaneshwar & 340",
-                    holdingValue: '0.00'
+                    holdingValue: '-10.00'
                 },
                 {
                     name: 'Pratik',
                     bet: "Rashid & 341",
-                    holdingValue: '0.00'
+                    holdingValue: '-10.00'
                 },
                 {
                     name: 'Tushar',
@@ -3791,7 +3791,7 @@ export class OverallStatsData {
                 {
                     name: 'Siddhu',
                     bet: "Khaleel & 365",
-                    holdingValue: '0.00'
+                    holdingValue: '-10.00'
                 },
                 {
                     name: 'Poonam',
