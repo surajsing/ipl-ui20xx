@@ -3632,6 +3632,174 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Match 44',
+                match: 'CSK vs MI',
+                result: "Match Winner MI & Total Wickets 14"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "MI & 15",
+                    holdingValue: '2.00'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "CSK & 13",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "CSK & 9",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "CSK & 11",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "MI & 13",
+                    holdingValue: '2.00'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "CSK & 14",
+                    holdingValue: '50.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "MI & 12",
+                    holdingValue: '2.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "MI & 12",
+                    holdingValue: '2.00'
+                },
+                {
+                    name: 'Param',
+                    bet: "CSK & 15",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "CSK & 10",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "MI & 12",
+                    holdingValue: '2.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "CSK & 8",
+                    holdingValue: '-10.00'
+                }
+            ]
+        },
+        {
+            matchFixtures: {
+                sequence: 'Match 45',
+                match: 'RR vs SRH',
+                result: "Top Wicket Taker - Unadkat & Total Run 321"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "Unadkat & 350",
+                    holdingValue: '15.00'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "Bhuvaneshwar & 333",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "Bhuvaneshwar & 307",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "Unadkat & 355",
+                    holdingValue: '15.00'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "Gopal & 318",
+                    holdingValue: '40.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "Rashid & 276",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "Rashid & 315",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Param',
+                    bet: "Bhuvaneshwar & 340",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "Rashid & 341",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "Khaleel & 365",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
 
     ]
 
