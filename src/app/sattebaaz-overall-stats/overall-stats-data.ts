@@ -3800,6 +3800,174 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Match 46',
+                match: 'DC vs RCB',
+                result: "Scorer>30 - 4 & Total 4's - 30"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "5 & 30",
+                    holdingValue: '23.33'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "5 & 32",
+                    holdingValue: '-1.67'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "5 & 32",
+                    holdingValue: '-1.67'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "7 & 37",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "6 & 38",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
+        {
+            matchFixtures: {
+                sequence: 'Match 47',
+                match: 'KKR vs MI',
+                result: "Batman Lynn & Bowler Bumrah"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "Lewis & Bumrah",
+                    holdingValue: '-2.50'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "Rohit & Bumrah",
+                    holdingValue: '-2.50'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "Lynn & Malinga",
+                    holdingValue: '5.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
 
     ]
 
