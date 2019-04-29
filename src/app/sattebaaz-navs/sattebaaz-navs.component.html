@@ -29,10 +29,10 @@
   </span>
   <!-- Always Keep Name with length 7 -->
   <a *ngIf="!dialogOpened">
-    <mat-icon mat-list-icon (click)="openDialogBox()" class="accountBox" *ngIf="(name!=undefined) || (name!=null)">account_circle</mat-icon>
+    <mat-icon (click)="openDialogBox()" class="accountBox" *ngIf="(name!=undefined) || (name!=null)">account_circle</mat-icon>
   </a>
   <a *ngIf="dialogOpened">
-    <mat-icon mat-list-icon class="accountBoxZoomed" *ngIf="(name!=undefined) || (name!=null)">account_circle</mat-icon>
+    <mat-icon class="accountBoxZoomed" *ngIf="(name!=undefined) || (name!=null)">account_circle</mat-icon>
   </a>
   <button class="btn btn-outline-color my-2 my-sm-0" (click)="logOut()">Sign Out</button>
 </nav>
