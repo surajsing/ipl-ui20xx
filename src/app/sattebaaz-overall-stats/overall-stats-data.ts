@@ -3968,6 +3968,342 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Match 48',
+                match: 'SRH vs KXIP',
+                result: "PP Score 121 & Total Boundaries 43"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "103 & 49",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "96 & 48",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "110 & 41",
+                    holdingValue: '25.00'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "87 & 43",
+                    holdingValue: '25.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "100 & 34",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "100 & 42",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "96 & 46",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
+        {
+            matchFixtures: {
+                sequence: 'Match 49',
+                match: 'RCB vs RR',
+                result: "No Results"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
+        {
+            matchFixtures: {
+                sequence: 'Match 50',
+                match: 'CSK vs DC',
+                result: "Bowler Tahir & J Suchith"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "Jadeja & NA",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "Chahar & Mishra",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "Jadeja & Mishra",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "Harbhajan & Mishra",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "Harbhajan & Mishra",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "Tahir & NA",
+                    holdingValue: '30.00'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "Jadeja & J Suchith",
+                    holdingValue: '15.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
+        {
+            matchFixtures: {
+                sequence: 'Match 51',
+                match: 'MI vs SRH',
+                result: "Total Runs 324 & Total Boundaries 43"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "348 & 45",
+                    holdingValue: '20.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "345 & 48",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "363 & 51",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Param',
+                    bet: "374 & 48",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "341 & 51",
+                    holdingValue: '20.00'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "372 & 52",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
 
     ]
 

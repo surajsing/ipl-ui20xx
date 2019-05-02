@@ -496,7 +496,7 @@ export class MatchFixturesData {
             teamOne: 'SRH',
             teamTwo: 'KXIP',
             date: new Date(2019, 3, 29),
-            winner: 'NYD'
+            winner: 'SRH'
         },
         {
             sequence: 'Match 49',
@@ -506,7 +506,7 @@ export class MatchFixturesData {
             teamOne: 'RCB',
             teamTwo: 'RR',
             date: new Date(2019, 3, 30),
-            winner: 'NYD'
+            winner: 'No Results'
         },
         {
             sequence: 'Match 50',
@@ -516,23 +516,23 @@ export class MatchFixturesData {
             teamOne: 'CSK',
             teamTwo: 'DC',
             date: new Date(2019, 4, 1),
-            winner: 'NYD'
+            winner: 'CSK'
         },
         {
             sequence: 'Match 51',
             fixtures: 'MI vs SRH',
             location: 'Mumbai',
-            bet: 'Bet - NYD',
+            bet: 'Bet - Total Runs & Total Boundaries',
             teamOne: 'MI',
             teamTwo: 'SRH',
             date: new Date(2019, 4, 2),
-            winner: 'NYD'
+            winner: 'MI'
         },
         {
             sequence: 'Match 52',
             fixtures: 'KXIP vs KKR',
             location: 'Mohali',
-            bet: 'Bet - NYD',
+            bet: 'Bet - Top Scorer & Highest Wicket Taker',
             teamOne: 'KXIP',
             teamTwo: 'KKR',
             date: new Date(2019, 4, 3),
@@ -542,7 +542,7 @@ export class MatchFixturesData {
             sequence: 'Match 53',
             fixtures: 'DC vs RR',
             location: 'Delhi',
-            bet: 'Bet - NYD',
+            bet: "Bet - Post Powerplay Wickets & Total 6's",
             teamOne: 'DC',
             teamTwo: 'RR',
             date: new Date(2019, 4, 4),
@@ -552,7 +552,7 @@ export class MatchFixturesData {
             sequence: 'Match 54',
             fixtures: 'RCB vs SRH',
             location: 'Bengaluru',
-            bet: 'Bet - NYD',
+            bet: 'Bet - Scorers over 30 & Total Catches',
             teamOne: 'RCB',
             teamTwo: 'SRH',
             date: new Date(2019, 4, 4),
@@ -562,7 +562,7 @@ export class MatchFixturesData {
             sequence: 'Match 55',
             fixtures: 'KXIP vs CSK',
             location: 'Mohali',
-            bet: 'Bet - NYD',
+            bet: 'Bet - Top Scorers from each team',
             teamOne: 'KXIP',
             teamTwo: 'CSK',
             date: new Date(2019, 4, 5),
@@ -572,7 +572,7 @@ export class MatchFixturesData {
             sequence: 'Match 56',
             fixtures: 'MI vs KKR',
             location: 'Mumbai',
-            bet: 'Bet - NYD',
+            bet: 'Bet - Powerplay Boundaries & Total Wickets',
             teamOne: 'MI',
             teamTwo: 'KKR',
             date: new Date(2019, 4, 5),
