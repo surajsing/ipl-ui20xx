@@ -47,7 +47,7 @@ export class SattebaazLoginComponent implements OnInit {
       let setName = userName.toLowerCase();
       let password: string = this.fields.password.value;
       switch (setName) {
-        case 'suraj': if ((password.toLowerCase()) === 'singh') {
+        case 'suraj': if ((password.toLowerCase()) === 'admin') {
           this.setUsername(setName);
         } else this.resetForm();
           break
