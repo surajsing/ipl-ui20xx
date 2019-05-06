@@ -29,7 +29,10 @@ export class SattebaazStatsBoardComponent implements OnInit {
   predictionRules: any;
   appliedDate: string;
   minDate = new Date(2019, 2, 23);
-  maxDate = new Date(2019, 4, 5);
+  maxDate = new Date(2019, 4, 12);
+  may6th = new Date(2019, 4, 6);
+  may9th = new Date(2019, 4, 9);
+  may11th = new Date(2019, 4, 11);
   contestantStatsData = [];
   dashboardPre = [];
   dashboardPreData = {};

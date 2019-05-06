@@ -4304,6 +4304,426 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Match 52',
+                match: 'KXIP vs KKR',
+                result: "No one Participated"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
+        {
+            matchFixtures: {
+                sequence: 'Match 53',
+                match: 'DC vs RR',
+                result: "Post PP Wicktet 8 & Total 6's - 11"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "6 & 9",
+                    holdingValue: '20.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "8 & 15",
+                    holdingValue: '20.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "9 & 18",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "7 & 16",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "7 & 19",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "6 & 14",
+                    holdingValue: '-10.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
+        {
+            matchFixtures: {
+                sequence: 'Match 54',
+                match: 'RCB vs SRH',
+                result: "Scorers>30 - 3 & Catches 13-CANC"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "5 & 5",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "6 & 5",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "4 & 6",
+                    holdingValue: '15.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "7 & 8",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "5 & 7",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "6 & 8",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "4 & 6",
+                    holdingValue: '15.00'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "5 & 7",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
+        {
+            matchFixtures: {
+                sequence: 'Match 55',
+                match: 'KXIP vs CSK',
+                result: "Top Scorers - Gayle & NA"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "M Agrawal & DuPlesis",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "Gayle & NA",
+                    holdingValue: '5.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
+        {
+            matchFixtures: {
+                sequence: 'Match 56',
+                match: 'MI vs KKR',
+                result: "Powerplay Boundaries 9-CANC & Total Wickets 8"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "15 & 10",
+                    holdingValue: '20.00'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "19 & 13",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Param',
+                    bet: "24 & 14",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "26 & 14",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Neha',
+                    bet: "NA",
+                    holdingValue: '0'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "18 & 15",
+                    holdingValue: '-5.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA",
+                    holdingValue: '0'
+                }
+            ]
+        },
 
     ]
 
