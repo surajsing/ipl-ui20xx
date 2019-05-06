@@ -159,6 +159,11 @@
           <mat-divider></mat-divider>
         </div>
       </div>
+      <div class="margin25px" *ngIf="(appliedDate === may6th.toDateString())||(appliedDate === may9th.toDateString())||(appliedDate === may11th.toDateString())">
+        <mat-card style="text-align:center;">
+          No Match Today
+        </mat-card>
+      </div>
     </div>
   </mat-tab>
 

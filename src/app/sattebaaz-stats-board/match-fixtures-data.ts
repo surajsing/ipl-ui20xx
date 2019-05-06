@@ -536,7 +536,7 @@ export class MatchFixturesData {
             teamOne: 'KXIP',
             teamTwo: 'KKR',
             date: new Date(2019, 4, 3),
-            winner: 'NYD'
+            winner: 'KKR'
         },
         {
             sequence: 'Match 53',
@@ -546,7 +546,7 @@ export class MatchFixturesData {
             teamOne: 'DC',
             teamTwo: 'RR',
             date: new Date(2019, 4, 4),
-            winner: 'NYD'
+            winner: 'DC'
         },
         {
             sequence: 'Match 54',
@@ -556,7 +556,7 @@ export class MatchFixturesData {
             teamOne: 'RCB',
             teamTwo: 'SRH',
             date: new Date(2019, 4, 4),
-            winner: 'NYD'
+            winner: 'RCB'
         },
         {
             sequence: 'Match 55',
@@ -566,7 +566,7 @@ export class MatchFixturesData {
             teamOne: 'KXIP',
             teamTwo: 'CSK',
             date: new Date(2019, 4, 5),
-            winner: 'NYD'
+            winner: 'KXIP'
         },
         {
             sequence: 'Match 56',
@@ -576,6 +576,46 @@ export class MatchFixturesData {
             teamOne: 'MI',
             teamTwo: 'KKR',
             date: new Date(2019, 4, 5),
+            winner: 'MI'
+        },
+        {
+            sequence: 'Qualifier 1',
+            fixtures: 'MI vs CSK',
+            location: 'Chennai',
+            bet: 'Bet - Match Winner & Highest Run Scorer',
+            teamOne: 'MI',
+            teamTwo: 'CSK',
+            date: new Date(2019, 4, 7),
+            winner: 'NYD'
+        },
+        {
+            sequence: 'Eliminator',
+            fixtures: 'DC vs SRH',
+            location: 'Visakhapatnam',
+            bet: 'Bet - Match Winner & Highest Wikcet Taker',
+            teamOne: 'DC',
+            teamTwo: 'SRH',
+            date: new Date(2019, 4, 8),
+            winner: 'NYD'
+        },
+        {
+            sequence: 'Qualifier 2',
+            fixtures: 'TBC vs TBC',
+            location: 'Visakhapatnam',
+            bet: 'Bet - NYD',
+            teamOne: 'TBC',
+            teamTwo: 'TBC',
+            date: new Date(2019, 4, 10),
+            winner: 'NYD'
+        },
+        {
+            sequence: 'Final',
+            fixtures: 'TBC vs TBC',
+            location: 'Hyderabad',
+            bet: 'Bet - NYD',
+            teamOne: 'TBC',
+            teamTwo: 'TBC',
+            date: new Date(2019, 4, 12),
             winner: 'NYD'
         }
     ];
