@@ -4724,6 +4724,90 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Qualifier 1',
+                match: 'MI vs CSK',
+                result: "Match Winner MI & Highest Scorer- S Yadav"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "NA Fine Amount = -20",
+                    holdingValue: '-20.00'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "CSK & Rayadu & Participation=+13.33",
+                    holdingValue: '-6.67'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "CSK & Raina & Participation=+13.33",
+                    holdingValue: '-6.67'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "NA Fine Amount = -20",
+                    holdingValue: '-20.00'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA Fine Amount = -20",
+                    holdingValue: '-20.00'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "CSK & Watson & Participation=+13.33",
+                    holdingValue: '-6.67'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "NA Fine Amount = -20",
+                    holdingValue: '-20.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "CSK & NA & Participation=+13.33",
+                    holdingValue: '3.33'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "CSK & Watson & Participation=+13.33",
+                    holdingValue: '-6.67'
+                },
+                {
+                    name: 'Param',
+                    bet: "MI & Dcock & Participation=+13.33",
+                    holdingValue: '23.33'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "CSK & Watson & Participation=+13.33",
+                    holdingValue: '-6.67'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "NA Fine Amount = -20",
+                    holdingValue: '-20.00'
+                },
+                {
+                    name: 'Neha',
+                    bet: "MI & S Yadav & Participation=+13.33",
+                    holdingValue: '103.33'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "MI & Rohit & Participation=+13.33",
+                    holdingValue: '23.33'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA Fine Amount = -20",
+                    holdingValue: '-20.00'
+                }
+            ]
+        },
 
     ]
 
