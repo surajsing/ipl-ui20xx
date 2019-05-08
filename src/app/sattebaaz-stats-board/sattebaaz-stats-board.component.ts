@@ -23,8 +23,10 @@ export class SattebaazStatsBoardComponent implements OnInit {
   contestants: any;
   top_5_contestant: DashboardElements[];
   bottom_5_contestant: DashboardElements[];
+  projection_contestant: DashboardElements[];
   top_5_contestant_dataSource: MatTableDataSource<DashboardElements>;
   bottom_5_contestant_dataSorce: MatTableDataSource<DashboardElements>;
+  projection_contestant_dataSorce: MatTableDataSource<DashboardElements>;
   publishRules: any;
   predictionRules: any;
   appliedDate: string;
@@ -41,7 +43,7 @@ export class SattebaazStatsBoardComponent implements OnInit {
     private contestant: ContestantData,
     ruleBook: PredictionRuleBookData,
     statsData: OverallStatsData,
-    private cacheService : SattebaazCacheService) {
+    private cacheService: SattebaazCacheService) {
     this.matches = match.getMatchData();
     this.publishRules = ruleBook.getPublishRules();
     this.predictionRules = ruleBook.getPredictionRules();
@@ -56,6 +58,10 @@ export class SattebaazStatsBoardComponent implements OnInit {
 
   applyFilterBottomFive(filterValue: string) {
     this.bottom_5_contestant_dataSorce.filter = filterValue.trim().toLowerCase();
+  }
+
+  applyFilterProjection(filterValue: string) {
+    this.projection_contestant_dataSorce.filter = filterValue.trim().toLowerCase();
   }
 
   events: string[] = [];
@@ -202,6 +208,20 @@ export class SattebaazStatsBoardComponent implements OnInit {
 
     this.cacheService.setData(this.dashboardPre);
 
+    let doubleHoldingValue = [...this.dashboardPre];
+    let projected_collection = [];
+
+    doubleHoldingValue.forEach(data => {
+      let projected_pre = {};
+      projected_pre['name'] = data.name;
+      projected_pre['holdingValue'] = (data.holdingValue * 2).toFixed(2);
+      if (projected_pre['holdingValue'] < 0) {
+        projected_pre['holdingValue'] = (projected_pre['holdingValue'] * -1).toFixed(2);
+        projected_collection.push(projected_pre);
+      }
+    })
+    this.projection_contestant = projected_collection;
+
     let topOrder = [...this.dashboardPre];
 
     topOrder.sort(function (a, b) {
@@ -224,6 +244,7 @@ export class SattebaazStatsBoardComponent implements OnInit {
     this.getContestantStatsData();
     this.top_5_contestant_dataSource = new MatTableDataSource(this.top_5_contestant);
     this.bottom_5_contestant_dataSorce = new MatTableDataSource(this.bottom_5_contestant);
+    this.projection_contestant_dataSorce = new MatTableDataSource(this.projection_contestant);
   }
 
 }
