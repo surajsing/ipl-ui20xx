@@ -4808,6 +4808,90 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Eliminator',
+                match: 'DC vs SRH',
+                result: "Match Winner DC & Highest Wicket Taker Paul"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "SRH & Bhuvi & Participation=+7.5",
+                    holdingValue: '-22.50'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "DC & Paul & Participation=+7.5",
+                    holdingValue: '165.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "DC & Rashid & Participation=+7.5",
+                    holdingValue: '0.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "SRH & Rashid & Participation=+7.5",
+                    holdingValue: '-22.50'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "NA Fine Amount = -30",
+                    holdingValue: '-30.00'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "DC & Mishra & Participation=+7.5",
+                    holdingValue: '0.00'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "NA Fine Amount = -30",
+                    holdingValue: '-30.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "DC & Boult & Participation=+7.5",
+                    holdingValue: '0.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "SRH & Bhuvi & Participation=+7.5",
+                    holdingValue: '-22.50'
+                },
+                {
+                    name: 'Param',
+                    bet: "DC & NA & Participation=+7.5",
+                    holdingValue: '15.00'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "NA Fine Amount=-30",
+                    holdingValue: '-30.00'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "DC & Boult & Participation=+7.5",
+                    holdingValue: '0.00'
+                },
+                {
+                    name: 'Neha',
+                    bet: "DC & Rashid & Participation=+7.5",
+                    holdingValue: '0.00'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "DC & Boult & Participation=+7.5",
+                    holdingValue: '0.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "SRH & Rashid & Participation=+7.5",
+                    holdingValue: '-22.50'
+                }
+            ]
+        },
 
     ]
 

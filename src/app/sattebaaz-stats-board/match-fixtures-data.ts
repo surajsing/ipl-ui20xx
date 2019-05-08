@@ -596,15 +596,15 @@ export class MatchFixturesData {
             teamOne: 'DC',
             teamTwo: 'SRH',
             date: new Date(2019, 4, 8),
-            winner: 'NYD'
+            winner: 'DC'
         },
         {
             sequence: 'Qualifier 2',
-            fixtures: 'TBC vs TBC',
+            fixtures: 'CSK vs DC',
             location: 'Visakhapatnam',
-            bet: 'Bet - NYD',
-            teamOne: 'TBC',
-            teamTwo: 'TBC',
+            bet: 'Bet - Top Scorer from each team',
+            teamOne: 'CSK',
+            teamTwo: 'DC',
             date: new Date(2019, 4, 10),
             winner: 'NYD'
         },
