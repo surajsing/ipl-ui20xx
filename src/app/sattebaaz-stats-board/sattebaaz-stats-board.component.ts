@@ -38,6 +38,7 @@ export class SattebaazStatsBoardComponent implements OnInit {
   contestantStatsData = [];
   dashboardPre = [];
   dashboardPreData = {};
+  totalContribution: any;
 
   constructor(match: MatchFixturesData,
     private contestant: ContestantData,
@@ -214,7 +215,7 @@ export class SattebaazStatsBoardComponent implements OnInit {
     doubleHoldingValue.forEach(data => {
       let projected_pre = {};
       projected_pre['name'] = data.name;
-      projected_pre['holdingValue'] = (data.holdingValue*0.5);
+      projected_pre['holdingValue'] = (data.holdingValue * 0.5);
       if (projected_pre['holdingValue'] < 0) {
         projected_pre['holdingValue'] = (projected_pre['holdingValue'] * -4);
       }
@@ -222,6 +223,12 @@ export class SattebaazStatsBoardComponent implements OnInit {
       projected_collection.push(projected_pre);
     })
     this.projection_contestant = projected_collection;
+
+    let initialVal = 0;
+    projected_collection.forEach(contributedVal => {
+      initialVal = initialVal + parseFloat(contributedVal.holdingValue);
+    })
+    this.totalContribution = initialVal.toFixed(2);
 
     let topOrder = [...this.dashboardPre];
 
