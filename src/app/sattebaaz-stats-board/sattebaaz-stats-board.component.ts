@@ -214,11 +214,11 @@ export class SattebaazStatsBoardComponent implements OnInit {
     doubleHoldingValue.forEach(data => {
       let projected_pre = {};
       projected_pre['name'] = data.name;
-      projected_pre['holdingValue'] = (data.holdingValue * 2).toFixed(2);
+      projected_pre['holdingValue'] = (data.holdingValue*0.5).toFixed(2);
       if (projected_pre['holdingValue'] < 0) {
-        projected_pre['holdingValue'] = (projected_pre['holdingValue'] * -1).toFixed(2);
-        projected_collection.push(projected_pre);
+        projected_pre['holdingValue'] = (projected_pre['holdingValue'] * -4).toFixed(2);
       }
+      projected_collection.push(projected_pre);
     })
     this.projection_contestant = projected_collection;
 
