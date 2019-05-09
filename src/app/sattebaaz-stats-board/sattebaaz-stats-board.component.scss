@@ -1,58 +1,70 @@
-.tabGroup{
-    background-color: honeydew;
+.tabGroup {
+  background-color: honeydew;
 }
-.margin50px{
-    margin: 50px;
+.margin50px {
+  margin: 50px;
 }
-.margin15px{
-    margin: 15px;
+.margin15px {
+  margin: 15px;
 }
-.margin25px{
-    margin: 25px;
+.margin25px {
+  margin: 25px;
 }
-.marginBottom100px{
-    margin-bottom: 100px;
+.marginBottom100px {
+  margin-bottom: 100px;
 }
-.marginBottom75px{
-    margin-bottom: 75px;
+.marginBottom75px {
+  margin-bottom: 75px;
 }
 
 table {
-    width: 100%;
-  }
-  
-.mat-form-field {
-    font-size: 14px;
-    width: 100%;
+  width: 100%;
 }
 
-.logoStyle{
-    border-radius: 350px;
-    // width: 150px;
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
 }
-.logoRadius{
-    border-radius: 350px;
-    width: 150px;
+
+.logoStyle {
+  border-radius: 350px;
+  // width: 150px;
 }
-.vs{
-    padding: 40px;
+.logoRadius {
+  border-radius: 350px;
+  width: 150px;
 }
-.versus{
-    top: 35%;
-    position: static;
-    font-size: xx-large;
-    font-family: cursive;
-    color: darkgray;
+.vs {
+  padding: 40px;
 }
-.winnerStyle{
-    padding: 0px 10px 0px 10px;
-    text-align: center;
-    font-size: xx-large;
-    font-family: auto;
-    color: cadetblue;
+.versus {
+  top: 35%;
+  position: static;
+  font-size: xx-large;
+  font-family: cursive;
+  color: darkgray;
 }
-.contestantDP{
-    border-radius: 100%;
-    height: 100%;
-    width: 100%;
+.winnerStyle {
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+  font-size: xx-large;
+  font-family: auto;
+  color: cadetblue;
+}
+.contestantDP {
+  border-radius: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.top5 th {
+  width: 50%;
+}
+
+.bottom5 th {
+  width: 50%;
+}
+
+.partyProjection th {
+  width: 50%;
 }

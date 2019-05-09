@@ -6,7 +6,7 @@
 
       <!-- Top 5 Contestant -->
 
-      <div class="col-sm-6">
+      <div class="col-sm-6 top5">
         <mat-card class="example-card margin50px">
           <mat-card-header>
             <mat-card-title>Top 5</mat-card-title>
@@ -36,7 +36,7 @@
 
       <!-- Bottom 5 Contestant -->
 
-      <div class="col-sm-6">
+      <div class="col-sm-6 bottom5">
         <mat-card class="example-card margin50px">
           <mat-card-header>
             <mat-card-title>Bottom 5</mat-card-title>
@@ -63,8 +63,40 @@
           </mat-card-content>
         </mat-card>
       </div>
-    </div>
 
+      <!-- Projection for Party -->
+
+      <div class="partyProjection" style="margin: 0 auto;width: 100%;">
+        <mat-card class="example-card margin50px">
+          <mat-card-header>
+            <mat-card-title style="font-size: larger; color: crimson;">Projection for PARTY!!</mat-card-title>
+            <mat-card-subtitle>Contestants</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <mat-form-field>
+              <input matInput (keyup)="applyFilterProjection($event.target.value)" placeholder="Filter">
+            </mat-form-field>
+            <table mat-table [dataSource]="projection_contestant_dataSorce" class="mat-elevation-z8">
+              <!-- Name Column -->
+              <ng-container matColumnDef="name">
+                <th mat-header-cell *matHeaderCellDef> Name </th>
+                <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+              </ng-container>
+              <!-- Holding Value Column -->
+              <ng-container matColumnDef="holdingValue">
+                <th mat-header-cell *matHeaderCellDef> Contribution Amount </th>
+                <td mat-cell *matCellDef="let element">
+                  <strong style="font-size: larger; color: rgb(38, 124, 23);">{{element.holdingValue}}</strong>
+                  <strong> INR</strong>
+                </td>
+              </ng-container>
+              <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+              <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
   </mat-tab>
 
   <!-- Contestant Here -->
@@ -159,7 +191,8 @@
           <mat-divider></mat-divider>
         </div>
       </div>
-      <div class="margin25px" *ngIf="(appliedDate === may6th.toDateString())||(appliedDate === may9th.toDateString())||(appliedDate === may11th.toDateString())">
+      <div class="margin25px"
+        *ngIf="(appliedDate === may6th.toDateString())||(appliedDate === may9th.toDateString())||(appliedDate === may11th.toDateString())">
         <mat-card style="text-align:center;">
           No Match Today
         </mat-card>
