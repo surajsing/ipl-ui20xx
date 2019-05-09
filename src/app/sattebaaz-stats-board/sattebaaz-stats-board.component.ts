@@ -209,15 +209,38 @@ export class SattebaazStatsBoardComponent implements OnInit {
 
     this.cacheService.setData(this.dashboardPre);
 
+    let topOrder = [...this.dashboardPre];
+
+    topOrder.sort(function (a, b) {
+      return b.holdingValue - a.holdingValue;
+    });
+
+    let highestHoldingValue = topOrder[0].holdingValue;
+
+    this.top_5_contestant = topOrder.splice(0, 5);
+
+    let bottomOrder = [...this.dashboardPre];
+
+    bottomOrder.sort(function (a, b) {
+      return a.holdingValue - b.holdingValue;
+    });
+
+    let lowestHoldingValue = bottomOrder[0].holdingValue;
+
+    this.bottom_5_contestant = bottomOrder.splice(0, 5);
+
     let doubleHoldingValue = [...this.dashboardPre];
     let projected_collection = [];
 
     doubleHoldingValue.forEach(data => {
       let projected_pre = {};
       projected_pre['name'] = data.name;
-      projected_pre['holdingValue'] = (data.holdingValue * 0.5);
+      projected_pre['holdingValue'] = data.holdingValue;
+      if (projected_pre['holdingValue'] > 0) {
+        projected_pre['holdingValue'] = ((parseFloat(highestHoldingValue) - parseFloat(projected_pre['holdingValue'])) * 0.5).toFixed(2);
+      }
       if (projected_pre['holdingValue'] < 0) {
-        projected_pre['holdingValue'] = (projected_pre['holdingValue'] * -4);
+        projected_pre['holdingValue'] = ((parseFloat(lowestHoldingValue) + parseFloat(projected_pre['holdingValue'])) * -1).toFixed(2);
       }
       projected_pre['holdingValue'] = Math.round(projected_pre['holdingValue']).toFixed(2);
       projected_collection.push(projected_pre);
@@ -229,22 +252,6 @@ export class SattebaazStatsBoardComponent implements OnInit {
       initialVal = initialVal + parseFloat(contributedVal.holdingValue);
     })
     this.totalContribution = initialVal.toFixed(2);
-
-    let topOrder = [...this.dashboardPre];
-
-    topOrder.sort(function (a, b) {
-      return b.holdingValue - a.holdingValue;
-    });
-
-    this.top_5_contestant = topOrder.splice(0, 5);
-
-    let bottomOrder = [...this.dashboardPre];
-
-    bottomOrder.sort(function (a, b) {
-      return a.holdingValue - b.holdingValue;
-    });
-
-    this.bottom_5_contestant = bottomOrder.splice(0, 5);
   }
 
   ngOnInit() {
