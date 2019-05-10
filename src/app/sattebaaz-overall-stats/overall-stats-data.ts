@@ -4867,7 +4867,7 @@ export class OverallStatsData {
                 },
                 {
                     name: 'Pratik',
-                    bet: "NA Fine Amount=-30",
+                    bet: "NA Fine Amount = -30",
                     holdingValue: '-30.00'
                 },
                 {
@@ -4889,6 +4889,90 @@ export class OverallStatsData {
                     name: 'Poonam',
                     bet: "SRH & Rashid & Participation=+7.5",
                     holdingValue: '-22.50'
+                }
+            ]
+        },
+        {
+            matchFixtures: {
+                sequence: 'Qualifier 2',
+                match: 'CSK vs DC',
+                result: "Top Scorer Pant & Watson"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "Watson & Dhawan & Participation=+10",
+                    holdingValue: '50.00'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "Dhoni & Shreyas & Participation=+10",
+                    holdingValue: '-30.00'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "Dhoni & Shreyas & Participation=+10",
+                    holdingValue: '-30.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "Raina & Dhawan & Participation=+10",
+                    holdingValue: '-30.00'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "Raina & Shreyas & Participation=+10",
+                    holdingValue: '-30.00'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "M Vijay & Pant & Participation=+10",
+                    holdingValue: '50.00'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "NA Fine Amount = -40",
+                    holdingValue: '-40.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "DuPlesis & Dhawan & Participation=+10",
+                    holdingValue: '-30.00'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "DuPlesis & Pant & Participation=+10",
+                    holdingValue: '50.00'
+                },
+                {
+                    name: 'Param',
+                    bet: "NA Fine Amount = -40",
+                    holdingValue: '-40.00'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "Watson & Prithvi & Participation=+10",
+                    holdingValue: '50.00'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "Raina & Pant & Participation=+10",
+                    holdingValue: '50.00'
+                },
+                {
+                    name: 'Neha',
+                    bet: "Rayudu & Prithvi & Participation=+10",
+                    holdingValue: '-30.00'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "Watson & Dhawan & Participation=+10",
+                    holdingValue: '50.00'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "NA Fine Amount = -40",
+                    holdingValue: '-40.00'
                 }
             ]
         },
