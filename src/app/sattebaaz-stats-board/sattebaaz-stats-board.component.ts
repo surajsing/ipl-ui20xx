@@ -242,7 +242,7 @@ export class SattebaazStatsBoardComponent implements OnInit {
       if (projected_pre['holdingValue'] < 0) {
         projected_pre['holdingValue'] = ((parseFloat(lowestHoldingValue) + parseFloat(projected_pre['holdingValue'])) * -1).toFixed(2);
       }
-      projected_pre['holdingValue'] = Math.round(projected_pre['holdingValue']).toFixed(2);
+      projected_pre['holdingValue'] = Math.round(projected_pre['holdingValue']*1.5).toFixed(2);
       projected_collection.push(projected_pre);
     })
     this.projection_contestant = projected_collection;
