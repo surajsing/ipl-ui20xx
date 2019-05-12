@@ -117,91 +117,91 @@ export class SattebaazStatsBoardComponent implements OnInit {
         }
       })
     });
-    this.contestants[0]['currentHoldingValue'] = (surajTotal.toFixed(2) + ' ' + 'INR');
+    this.contestants[0]['currentHoldingValue'] = (surajTotal.toFixed(2));
     this.dashboardPreData['name'] = this.contestants[0]['name']['firstName'];
     this.dashboardPreData['holdingValue'] = surajTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
-    this.contestants[1]['currentHoldingValue'] = (kailashTotal.toFixed(2) + ' ' + 'INR');
+    this.contestants[1]['currentHoldingValue'] = (kailashTotal.toFixed(2));
     this.dashboardPreData['name'] = this.contestants[1]['name']['firstName'];
     this.dashboardPreData['holdingValue'] = kailashTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
-    this.contestants[2]['currentHoldingValue'] = (kalpeshTotal.toFixed(2) + ' ' + 'INR');
+    this.contestants[2]['currentHoldingValue'] = (kalpeshTotal.toFixed(2));
     this.dashboardPreData['name'] = this.contestants[2]['name']['firstName'];
     this.dashboardPreData['holdingValue'] = kalpeshTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
-    this.contestants[3]['currentHoldingValue'] = (neerajTotal.toFixed(2) + ' ' + 'INR');
+    this.contestants[3]['currentHoldingValue'] = (neerajTotal.toFixed(2));
     this.dashboardPreData['name'] = this.contestants[3]['name']['firstName'];
     this.dashboardPreData['holdingValue'] = neerajTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
-    this.contestants[4]['currentHoldingValue'] = (poojaTotal.toFixed(2) + ' ' + 'INR');
+    this.contestants[4]['currentHoldingValue'] = (poojaTotal.toFixed(2));
     this.dashboardPreData['name'] = this.contestants[4]['name']['firstName'];
     this.dashboardPreData['holdingValue'] = poojaTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
-    this.contestants[5]['currentHoldingValue'] = (snehalTotal.toFixed(2) + ' ' + 'INR');
+    this.contestants[5]['currentHoldingValue'] = (snehalTotal.toFixed(2));
     this.dashboardPreData['name'] = this.contestants[5]['name']['firstName'];
     this.dashboardPreData['holdingValue'] = snehalTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
-    this.contestants[6]['currentHoldingValue'] = (manasiTotal.toFixed(2) + ' ' + 'INR');
+    this.contestants[6]['currentHoldingValue'] = (manasiTotal.toFixed(2));
     this.dashboardPreData['name'] = this.contestants[6]['name']['firstName'];
     this.dashboardPreData['holdingValue'] = manasiTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
-    this.contestants[7]['currentHoldingValue'] = (radhikaTotal.toFixed(2) + ' ' + 'INR');
+    this.contestants[7]['currentHoldingValue'] = (radhikaTotal.toFixed(2));
     this.dashboardPreData['name'] = this.contestants[7]['name']['firstName'];
     this.dashboardPreData['holdingValue'] = radhikaTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
-    this.contestants[8]['currentHoldingValue'] = (shrutiTotal.toFixed(2) + ' ' + 'INR');
+    this.contestants[8]['currentHoldingValue'] = (shrutiTotal.toFixed(2));
     this.dashboardPreData['name'] = this.contestants[8]['name']['firstName'];
     this.dashboardPreData['holdingValue'] = shrutiTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
-    this.contestants[9]['currentHoldingValue'] = (paramTotal.toFixed(2) + ' ' + 'INR');
+    this.contestants[9]['currentHoldingValue'] = (paramTotal.toFixed(2));
     this.dashboardPreData['name'] = this.contestants[9]['name']['firstName'];
     this.dashboardPreData['holdingValue'] = paramTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
-    this.contestants[10]['currentHoldingValue'] = (pratikTotal.toFixed(2) + ' ' + 'INR');
+    this.contestants[10]['currentHoldingValue'] = (pratikTotal.toFixed(2));
     this.dashboardPreData['name'] = this.contestants[10]['name']['firstName'];
     this.dashboardPreData['holdingValue'] = pratikTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
-    this.contestants[11]['currentHoldingValue'] = (tusharTotal.toFixed(2) + ' ' + 'INR');
+    this.contestants[11]['currentHoldingValue'] = (tusharTotal.toFixed(2));
     this.dashboardPreData['name'] = this.contestants[11]['name']['firstName'];
     this.dashboardPreData['holdingValue'] = tusharTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
-    this.contestants[12]['currentHoldingValue'] = (nehaTotal.toFixed(2) + ' ' + 'INR');
+    this.contestants[12]['currentHoldingValue'] = (nehaTotal.toFixed(2));
     this.dashboardPreData['name'] = this.contestants[12]['name']['firstName'];
     this.dashboardPreData['holdingValue'] = nehaTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
-    this.contestants[13]['currentHoldingValue'] = (siddhuTotal.toFixed(2) + ' ' + 'INR');
+    this.contestants[13]['currentHoldingValue'] = (siddhuTotal.toFixed(2));
     this.dashboardPreData['name'] = this.contestants[13]['name']['firstName'];
     this.dashboardPreData['holdingValue'] = siddhuTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
     this.dashboardPreData = {};
 
-    this.contestants[14]['currentHoldingValue'] = (poonamTotal.toFixed(2) + ' ' + 'INR');
+    this.contestants[14]['currentHoldingValue'] = (poonamTotal.toFixed(2));
     this.dashboardPreData['name'] = this.contestants[14]['name']['firstName'];
     this.dashboardPreData['holdingValue'] = poonamTotal.toFixed(2);
     this.dashboardPre.push(this.dashboardPreData);
