@@ -4976,6 +4976,90 @@ export class OverallStatsData {
                 }
             ]
         },
+        {
+            matchFixtures: {
+                sequence: 'Final',
+                match: 'MI vs CSK',
+                result: "Match Winner MI, Batman Watson, Bowler DChahar, Boundaries 36"
+            },
+            contestantStats: [
+                {
+                    name: 'Kalpesh',
+                    bet: "MI & Watson & Malinga & 50",
+                    holdingValue: '42.86'
+                },
+                {
+                    name: 'Kailash',
+                    bet: "MI & Dcock & Bumrah & 48",
+                    holdingValue: '-7.14'
+                },
+                {
+                    name: 'Suraj',
+                    bet: "CSK & Raina & Tahir & 44",
+                    holdingValue: '-50.00'
+                },
+                {
+                    name: 'Neeraj',
+                    bet: "CSK & DuPlesis & Malinga & 48",
+                    holdingValue: '-50.00'
+                },
+                {
+                    name: 'Pooja',
+                    bet: "MI & Suryakumar & Malinga & 42",
+                    holdingValue: '-7.14'
+                },
+                {
+                    name: 'Snehal',
+                    bet: "CSK & Watson & D Chahar & 38",
+                    holdingValue: '300.00'
+                },
+                {
+                    name: 'Manasi',
+                    bet: "CSK & Watson & Bhajji & 59",
+                    holdingValue: '0.00'
+                },
+                {
+                    name: 'Radhika',
+                    bet: "MI & Dcock & Bumrah & 32",
+                    holdingValue: '-7.14'
+                },
+                {
+                    name: 'Shruti',
+                    bet: "CSK & Dhoni & Rahul & 45",
+                    holdingValue: '-50.00'
+                },
+                {
+                    name: 'Param',
+                    bet: "MI & Rohit & Tahir & 50",
+                    holdingValue: '-7.14'
+                },
+                {
+                    name: 'Pratik',
+                    bet: "CSK & DuPlesis & Tahir & 51",
+                    holdingValue: '-50.00'
+                },
+                {
+                    name: 'Tushar',
+                    bet: "MI & Rohit & Bumrah & 57",
+                    holdingValue: '-7.14'
+                },
+                {
+                    name: 'Neha',
+                    bet: "CSK & Rohit & Tahir & 48",
+                    holdingValue: '-50.00'
+                },
+                {
+                    name: 'Siddhu',
+                    bet: "MI & Rohit & Tahir & 49",
+                    holdingValue: '-7.14'
+                },
+                {
+                    name: 'Poonam',
+                    bet: "CSK & Dhoni & Tahir & 40",
+                    holdingValue: '-50.00'
+                }
+            ]
+        },
 
     ]
 
