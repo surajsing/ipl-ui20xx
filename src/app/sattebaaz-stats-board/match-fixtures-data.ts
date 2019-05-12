@@ -616,7 +616,7 @@ export class MatchFixturesData {
             teamOne: 'MI',
             teamTwo: 'CSK',
             date: new Date(2019, 4, 12),
-            winner: 'NYD'
+            winner: 'MI'
         }
     ];
 
